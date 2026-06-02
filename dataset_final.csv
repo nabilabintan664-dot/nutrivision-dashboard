@@ -1,0 +1,769 @@
+Age,Gender,Fast_Food_Meals_Per_Week,Average_Daily_Calories,BMI,Physical_Activity_Hours_Per_Week,Sleep_Hours_Per_Day,Energy_Level_Score,Digestive_Issues,Doctor_Visits_Per_Year,Overall_Health_Score,Fast_Food_Group,High_Cal_Low_Energy,Age_Group,Digestive_Numeric
+55,Male,1,3176,28.2,4.4,7.8,9,No,7,5.1,Rendah (<2x),Tidak,45-59 Tahun,0
+45,Male,12,1778,22.9,9.6,6.8,2,No,4,2.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+32,Female,8,2549,21.3,3.6,7.4,2,Yes,7,3.8,Tinggi (>5x),Ya,30-44 Tahun,1
+24,Female,6,2596,26.7,8.7,6.2,6,No,7,8.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+39,Female,14,2282,18.0,2.1,7.6,7,No,5,4.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+56,Female,7,3236,18.3,6.6,8.1,7,No,1,9.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+36,Male,14,1963,21.6,9.9,4.7,9,No,7,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Female,10,2984,18.4,1.1,8.1,6,Yes,10,6.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+28,Female,2,1862,19.8,0.1,6.8,8,Yes,6,2.0,Normal,Tidak,20-29 Tahun,1
+28,Male,6,2256,23.6,4.4,6.6,6,No,5,7.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+41,Male,11,2261,31.8,0.8,6.3,2,No,7,9.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+52,Male,5,1843,27.8,7.5,5.9,1,Yes,0,6.0,Normal,Tidak,45-59 Tahun,1
+56,Male,3,3389,26.6,8.9,8.5,5,No,1,3.1,Normal,Tidak,45-59 Tahun,0
+40,Male,6,1812,22.6,4.2,5.4,9,No,11,6.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+20,Male,13,1845,34.0,2.8,8.2,8,No,11,4.7,Tinggi (>5x),Tidak,20-29 Tahun,0
+39,Male,12,2179,24.7,4.3,6.5,4,No,8,1.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+20,Male,3,2288,19.4,7.3,6.6,5,No,10,3.1,Normal,Tidak,20-29 Tahun,0
+40,Female,1,1810,28.7,0.1,5.6,5,Yes,11,4.9,Rendah (<2x),Tidak,30-44 Tahun,1
+47,Female,9,3010,19.1,5.9,7.0,6,No,7,7.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+55,Female,11,2134,24.1,6.0,5.7,3,Yes,11,3.4,Tinggi (>5x),Tidak,45-59 Tahun,1
+20,Female,6,2470,26.1,6.6,4.1,5,Yes,6,6.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+39,Female,7,3403,32.6,2.6,5.3,2,Yes,6,5.1,Tinggi (>5x),Ya,30-44 Tahun,1
+50,Male,1,3433,26.5,6.9,3.8,1,Yes,4,1.4,Rendah (<2x),Ya,45-59 Tahun,1
+29,Female,4,2549,29.2,0.9,8.9,1,Yes,1,6.1,Normal,Ya,20-29 Tahun,1
+40,Female,0,2348,34.5,4.9,8.8,7,Yes,10,8.0,Rendah (<2x),Tidak,30-44 Tahun,1
+42,Female,6,2180,20.2,9.1,6.1,2,No,5,1.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+44,Male,7,1739,22.7,7.2,7.6,4,Yes,9,2.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+58,Male,12,2044,24.4,0.1,5.7,5,No,2,3.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+45,Male,5,2037,24.8,2.7,7.3,7,Yes,3,1.9,Normal,Tidak,45-59 Tahun,1
+33,Male,4,1818,24.9,2.2,8.0,2,No,9,9.1,Normal,Tidak,30-44 Tahun,0
+20,Female,5,3235,30.0,2.5,6.0,1,Yes,10,8.0,Normal,Ya,20-29 Tahun,1
+54,Male,14,3093,28.2,0.6,7.7,7,No,6,3.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+25,Other,1,3028,23.2,4.6,5.3,9,No,1,5.1,Rendah (<2x),Tidak,20-29 Tahun,0
+38,Female,0,1639,31.9,7.1,9.0,5,No,11,4.1,Rendah (<2x),Tidak,30-44 Tahun,0
+26,Male,6,2673,34.5,6.3,4.1,5,No,7,9.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+57,Male,6,2072,31.8,6.7,6.9,4,No,7,2.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+35,Male,8,1881,17.5,0.7,7.3,3,No,9,7.7,Tinggi (>5x),Tidak,30-44 Tahun,0
+21,Male,10,3311,28.5,9.6,7.5,9,No,5,2.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+43,Male,9,2010,19.1,8.3,4.6,5,Yes,6,0.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+31,Male,13,3351,22.4,8.3,8.8,8,No,7,3.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+25,Male,1,2966,19.2,8.3,4.8,9,No,3,9.1,Rendah (<2x),Tidak,20-29 Tahun,0
+42,Male,1,2288,28.6,9.0,7.1,5,No,10,2.9,Rendah (<2x),Tidak,30-44 Tahun,0
+40,Female,0,2161,29.9,5.5,5.1,9,Yes,3,9.0,Rendah (<2x),Tidak,30-44 Tahun,1
+37,Male,9,2287,20.0,1.8,5.5,2,No,4,6.8,Tinggi (>5x),Tidak,30-44 Tahun,0
+44,Female,7,3263,24.4,6.2,6.6,9,No,0,1.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+23,Female,14,1654,26.2,7.4,6.1,4,Yes,6,4.8,Tinggi (>5x),Tidak,20-29 Tahun,1
+26,Other,7,1620,24.3,7.4,4.8,6,No,1,9.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+53,Male,0,2017,26.5,5.2,5.0,6,No,7,3.0,Rendah (<2x),Tidak,45-59 Tahun,0
+31,Male,11,2683,24.9,0.5,6.2,6,No,6,9.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+33,Other,10,3397,31.1,4.1,7.8,2,No,9,5.0,Tinggi (>5x),Ya,30-44 Tahun,0
+54,Female,7,1702,19.3,9.2,8.5,7,Yes,8,8.8,Tinggi (>5x),Tidak,45-59 Tahun,1
+56,Female,8,2968,19.2,5.8,4.4,5,No,4,5.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+21,Male,13,2892,24.0,5.3,6.0,1,No,1,9.1,Tinggi (>5x),Ya,20-29 Tahun,0
+19,Male,3,2726,34.1,2.8,4.5,2,Yes,6,7.0,Normal,Ya,<20 Tahun,1
+23,Female,0,2871,29.6,3.9,4.0,7,Yes,7,6.9,Rendah (<2x),Tidak,20-29 Tahun,1
+60,Female,0,2735,29.6,8.9,7.5,1,No,11,7.9,Rendah (<2x),Ya,60+ Tahun,0
+22,Female,2,1713,23.9,6.7,7.2,1,Yes,6,7.2,Normal,Tidak,20-29 Tahun,1
+47,Female,14,1964,28.3,7.9,4.7,1,Yes,6,9.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+34,Male,13,2798,18.5,4.3,5.2,8,No,11,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+43,Female,4,3265,28.6,6.3,4.2,4,Yes,4,5.9,Normal,Ya,30-44 Tahun,1
+52,Male,4,3306,33.9,2.5,8.2,4,No,1,6.9,Normal,Ya,45-59 Tahun,0
+27,Male,8,1709,28.4,7.1,8.9,2,Yes,5,1.8,Tinggi (>5x),Tidak,20-29 Tahun,1
+30,Female,13,2900,30.0,4.6,5.3,9,No,9,1.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+31,Male,5,3084,27.0,8.0,4.2,2,No,6,5.1,Normal,Ya,30-44 Tahun,0
+40,Female,14,2865,19.9,3.0,4.2,7,No,5,2.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+57,Male,8,3463,18.6,4.4,6.9,2,No,11,9.1,Tinggi (>5x),Ya,45-59 Tahun,0
+38,Female,0,2454,24.9,0.1,6.0,8,No,4,3.7,Rendah (<2x),Tidak,30-44 Tahun,0
+32,Female,8,2549,22.9,4.9,4.0,8,Yes,2,4.1,Tinggi (>5x),Tidak,30-44 Tahun,1
+36,Female,8,3102,26.5,5.1,6.9,1,No,11,5.1,Tinggi (>5x),Ya,30-44 Tahun,0
+41,Male,12,2033,27.7,0.4,4.1,8,No,9,8.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+43,Male,8,2598,18.7,5.2,8.0,2,Yes,9,3.9,Tinggi (>5x),Ya,30-44 Tahun,1
+41,Male,5,3011,19.9,9.1,5.5,6,No,3,5.2,Normal,Tidak,30-44 Tahun,0
+57,Other,12,1970,27.6,1.2,4.3,1,Yes,2,4.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+32,Female,8,3333,30.3,4.3,6.0,7,Yes,10,2.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+18,Male,10,2511,29.1,6.7,9.0,1,No,7,7.8,Tinggi (>5x),Ya,<20 Tahun,0
+42,Female,3,2639,32.5,2.5,6.7,2,Yes,6,6.3,Normal,Ya,30-44 Tahun,1
+23,Female,1,2546,29.8,1.6,5.4,7,Yes,6,4.8,Rendah (<2x),Tidak,20-29 Tahun,1
+26,Female,12,1682,25.3,1.5,7.6,6,No,6,2.2,Tinggi (>5x),Tidak,20-29 Tahun,0
+41,Male,5,2599,30.0,0.6,5.4,3,No,6,6.7,Normal,Ya,30-44 Tahun,0
+18,Male,13,3033,22.6,1.6,8.7,2,No,6,2.0,Tinggi (>5x),Ya,<20 Tahun,0
+25,Female,3,2100,23.2,6.5,6.0,4,Yes,1,1.0,Normal,Tidak,20-29 Tahun,1
+41,Female,5,2562,31.4,8.3,6.7,3,Yes,9,6.8,Normal,Ya,30-44 Tahun,1
+28,Female,2,2165,25.6,7.9,4.2,7,No,2,5.1,Normal,Tidak,20-29 Tahun,0
+34,Other,5,2549,32.1,6.9,6.2,8,No,9,1.0,Normal,Tidak,30-44 Tahun,0
+25,Male,1,2159,31.8,0.9,8.1,2,Yes,8,3.9,Rendah (<2x),Tidak,20-29 Tahun,1
+53,Female,1,1922,32.0,2.8,7.9,7,No,2,4.0,Rendah (<2x),Tidak,45-59 Tahun,0
+52,Female,12,2178,33.9,2.9,5.0,8,No,1,5.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+50,Male,8,2614,24.7,2.6,5.1,6,No,8,9.2,Tinggi (>5x),Tidak,45-59 Tahun,0
+22,Male,6,1788,23.1,5.2,8.1,6,No,9,2.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+59,Female,2,2668,28.2,5.5,8.8,1,No,8,1.2,Normal,Ya,45-59 Tahun,0
+56,Female,12,3301,23.9,3.8,4.6,4,Yes,3,1.6,Tinggi (>5x),Ya,45-59 Tahun,1
+58,Female,10,3053,28.3,3.9,6.3,1,Yes,11,6.9,Tinggi (>5x),Ya,45-59 Tahun,1
+46,Male,0,3061,30.2,8.5,5.8,4,No,8,5.8,Rendah (<2x),Ya,45-59 Tahun,0
+23,Female,7,3020,30.0,8.0,8.4,2,No,2,3.9,Tinggi (>5x),Ya,20-29 Tahun,0
+25,Male,13,2654,24.6,2.8,4.4,5,No,6,1.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+25,Male,5,2210,20.6,9.1,5.0,9,No,6,0.8,Normal,Tidak,20-29 Tahun,0
+29,Male,6,3388,25.1,9.7,7.7,3,No,10,4.9,Tinggi (>5x),Ya,20-29 Tahun,0
+51,Female,8,3329,20.0,3.2,4.4,8,No,7,0.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+50,Female,4,2636,33.1,3.4,6.5,3,Yes,9,7.1,Normal,Ya,45-59 Tahun,1
+40,Female,14,2696,23.9,4.9,6.1,6,Yes,3,1.3,Tinggi (>5x),Tidak,30-44 Tahun,1
+41,Male,0,3420,20.7,9.6,5.6,4,No,2,1.0,Rendah (<2x),Ya,30-44 Tahun,0
+54,Female,11,2849,17.9,8.8,5.9,8,No,2,2.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+52,Male,9,2659,28.8,0.9,6.6,6,Yes,11,3.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+57,Female,6,2308,29.1,3.6,4.8,8,No,4,1.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+38,Male,14,1733,24.3,5.4,6.9,1,No,10,9.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+44,Female,4,3226,19.0,4.9,8.0,6,No,0,8.0,Normal,Tidak,30-44 Tahun,0
+52,Female,2,3007,24.6,1.6,7.8,1,Yes,9,5.0,Normal,Ya,45-59 Tahun,1
+16,Male,11,2739,23.8,8.8,4.8,1,No,2,2.1,Tinggi (>5x),Ya,<20 Tahun,0
+52,Female,12,2549,29.4,7.1,4.7,8,Yes,5,5.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+54,Female,8,2120,28.9,8.5,5.2,7,No,2,6.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+32,Male,0,2650,24.5,8.6,5.9,3,Yes,4,0.8,Rendah (<2x),Ya,30-44 Tahun,1
+19,Female,0,1817,21.7,7.8,5.9,6,No,8,3.9,Rendah (<2x),Tidak,<20 Tahun,0
+16,Male,0,2804,35.3,4.8,7.5,9,Yes,1,9.3,Rendah (<2x),Tidak,<20 Tahun,1
+22,Female,2,3423,26.1,6.3,4.3,7,No,10,2.1,Normal,Tidak,20-29 Tahun,0
+42,Female,11,3393,29.5,1.4,4.2,3,No,1,5.0,Tinggi (>5x),Ya,30-44 Tahun,0
+32,Female,5,3087,20.7,6.9,5.9,6,Yes,11,1.1,Normal,Tidak,30-44 Tahun,1
+56,Male,9,2418,25.7,1.8,7.5,4,No,5,4.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+44,Female,10,2458,18.8,7.2,5.0,3,Yes,5,3.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+26,Female,2,2022,26.5,2.3,7.2,9,Yes,10,5.8,Normal,Tidak,20-29 Tahun,1
+33,Male,7,1814,34.4,1.3,5.3,2,No,10,9.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+33,Male,13,1620,24.2,1.4,8.4,1,Yes,7,2.8,Tinggi (>5x),Tidak,30-44 Tahun,1
+44,Female,13,2578,18.4,-0.0,8.6,2,No,11,8.9,Tinggi (>5x),Ya,30-44 Tahun,0
+59,Female,9,3417,18.8,7.2,5.4,7,No,10,6.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+30,Female,1,1776,24.6,7.4,5.2,5,No,1,7.2,Rendah (<2x),Tidak,30-44 Tahun,0
+50,Female,13,2718,20.8,5.1,6.0,6,Yes,8,1.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+56,Female,8,2543,18.3,1.6,5.1,7,No,1,5.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+40,Male,2,2672,30.9,0.8,7.4,9,No,0,5.9,Normal,Tidak,30-44 Tahun,0
+21,Male,4,1768,25.9,0.2,8.0,8,Yes,9,2.1,Normal,Tidak,20-29 Tahun,1
+47,Male,9,2784,22.7,1.7,7.5,6,No,1,1.7,Tinggi (>5x),Tidak,45-59 Tahun,0
+55,Female,7,2194,33.1,8.8,8.1,3,Yes,11,1.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Male,1,2113,20.0,2.4,6.2,8,No,6,0.8,Rendah (<2x),Tidak,30-44 Tahun,0
+55,Female,5,2795,34.7,3.3,4.8,7,Yes,7,4.9,Normal,Tidak,45-59 Tahun,1
+32,Female,7,2107,23.1,1.1,7.7,3,No,4,8.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+46,Female,4,3135,33.3,2.2,5.8,9,No,5,2.0,Normal,Tidak,45-59 Tahun,0
+52,Male,12,3371,28.5,5.5,7.5,2,Yes,11,5.1,Tinggi (>5x),Ya,45-59 Tahun,1
+30,Female,9,3358,32.0,6.0,5.2,3,Yes,0,8.2,Tinggi (>5x),Ya,30-44 Tahun,1
+40,Male,8,1928,34.8,2.5,4.4,2,No,5,5.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+24,Female,11,2297,23.0,0.7,8.9,1,No,11,1.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+39,Male,4,2668,34.5,3.8,4.7,4,Yes,7,2.9,Normal,Ya,30-44 Tahun,1
+45,Male,1,2102,24.9,2.6,8.9,5,Yes,2,5.9,Rendah (<2x),Tidak,45-59 Tahun,1
+19,Female,4,2500,24.2,2.1,9.0,6,No,10,5.1,Normal,Tidak,<20 Tahun,0
+59,Male,14,2404,23.5,9.6,8.0,5,No,0,4.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+24,Male,11,2116,27.1,6.4,7.3,1,No,10,4.2,Tinggi (>5x),Tidak,20-29 Tahun,0
+45,Female,3,1732,20.1,5.8,6.8,3,No,3,5.1,Normal,Tidak,45-59 Tahun,0
+45,Female,14,3320,27.5,4.5,8.4,1,Yes,0,2.0,Tinggi (>5x),Ya,45-59 Tahun,1
+36,Female,10,2247,26.9,4.1,5.3,5,No,7,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+46,Female,6,1798,31.3,5.3,6.5,5,No,4,2.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+27,Female,5,2784,26.5,6.9,7.2,6,Yes,0,2.2,Normal,Tidak,20-29 Tahun,1
+46,Male,13,1650,25.2,7.1,6.2,8,No,7,8.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+43,Male,1,2504,22.5,1.5,6.1,1,No,8,5.0,Rendah (<2x),Ya,30-44 Tahun,0
+55,Male,11,3453,22.1,4.9,5.7,4,Yes,9,7.2,Tinggi (>5x),Ya,45-59 Tahun,1
+51,Female,10,2950,20.9,3.9,6.8,1,No,1,4.0,Tinggi (>5x),Ya,45-59 Tahun,0
+17,Female,10,1778,19.1,8.6,8.2,9,Yes,8,6.0,Tinggi (>5x),Tidak,<20 Tahun,1
+44,Male,12,1952,23.7,6.4,4.9,7,No,7,4.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+30,Male,4,2226,22.9,5.3,8.7,7,No,6,6.9,Normal,Tidak,30-44 Tahun,0
+59,Female,6,2736,34.4,1.2,7.4,5,Yes,2,1.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+20,Male,10,2659,27.6,6.2,8.2,7,No,1,2.8,Tinggi (>5x),Tidak,20-29 Tahun,0
+56,Female,6,2094,23.9,1.1,6.8,2,No,6,2.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+22,Female,14,2889,28.4,3.3,7.9,4,No,4,0.9,Tinggi (>5x),Ya,20-29 Tahun,0
+24,Female,4,2626,21.0,1.5,4.3,7,No,5,6.1,Normal,Tidak,20-29 Tahun,0
+44,Male,11,2721,25.7,7.0,8.2,3,No,4,8.8,Tinggi (>5x),Ya,30-44 Tahun,0
+26,Female,14,2526,28.3,2.1,4.3,2,No,1,8.0,Tinggi (>5x),Ya,20-29 Tahun,0
+54,Female,8,2440,25.9,4.0,8.5,2,No,8,7.4,Tinggi (>5x),Tidak,45-59 Tahun,0
+50,Female,3,3315,25.0,9.2,8.9,1,No,2,8.1,Normal,Ya,45-59 Tahun,0
+59,Female,10,1617,35.3,2.0,5.6,5,Yes,11,6.2,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Female,2,2054,33.3,4.9,5.0,6,No,6,9.0,Normal,Tidak,30-44 Tahun,0
+32,Female,14,3253,28.7,4.4,7.8,6,No,7,2.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+49,Male,3,2349,27.8,0.3,5.3,9,No,1,9.1,Normal,Tidak,45-59 Tahun,0
+49,Female,4,2972,28.5,7.7,8.4,4,No,5,4.1,Normal,Ya,45-59 Tahun,0
+41,Female,12,1817,21.4,0.7,4.5,1,No,10,6.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+58,Male,5,1695,25.3,4.7,4.6,6,No,7,9.1,Normal,Tidak,45-59 Tahun,0
+28,Female,2,2786,18.6,5.7,8.9,5,Yes,6,2.0,Normal,Tidak,20-29 Tahun,1
+56,Female,7,2046,25.7,6.3,7.4,6,Yes,10,2.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+19,Female,13,2721,27.7,7.0,8.3,3,No,2,9.2,Tinggi (>5x),Ya,<20 Tahun,0
+20,Male,12,2489,21.4,2.7,5.6,2,Yes,0,3.1,Tinggi (>5x),Tidak,20-29 Tahun,1
+54,Male,3,3280,34.4,0.0,7.5,6,Yes,5,9.1,Normal,Tidak,45-59 Tahun,1
+33,Other,4,2740,33.5,7.0,6.9,1,Yes,7,5.0,Normal,Ya,30-44 Tahun,1
+19,Female,3,2373,29.8,5.4,6.6,7,No,5,6.2,Normal,Tidak,<20 Tahun,0
+19,Male,13,2119,27.2,8.5,7.4,7,No,4,1.9,Tinggi (>5x),Tidak,<20 Tahun,0
+44,Female,10,2359,33.1,8.4,6.8,7,No,10,8.3,Tinggi (>5x),Tidak,30-44 Tahun,0
+39,Female,12,2943,20.3,8.4,6.0,1,No,11,8.9,Tinggi (>5x),Ya,30-44 Tahun,0
+54,Female,14,2550,31.3,4.8,5.4,4,Yes,7,2.0,Tinggi (>5x),Ya,45-59 Tahun,1
+49,Female,11,3447,20.2,3.3,7.7,7,No,1,5.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+51,Male,2,2606,31.5,8.0,5.1,9,No,11,5.8,Normal,Tidak,45-59 Tahun,0
+18,Female,7,2720,23.0,4.4,7.5,5,No,0,8.3,Tinggi (>5x),Tidak,<20 Tahun,0
+37,Male,9,3479,32.7,1.6,5.2,2,Yes,0,4.8,Tinggi (>5x),Ya,30-44 Tahun,1
+20,Female,3,1753,34.4,8.3,7.1,7,Yes,3,8.9,Normal,Tidak,20-29 Tahun,1
+42,Male,13,2001,20.5,8.9,7.7,1,Yes,5,1.1,Tinggi (>5x),Tidak,30-44 Tahun,1
+50,Male,1,1796,25.8,4.9,5.2,7,No,8,9.0,Rendah (<2x),Tidak,45-59 Tahun,0
+23,Male,1,2849,34.9,0.7,4.3,6,No,0,7.0,Rendah (<2x),Tidak,20-29 Tahun,0
+49,Female,0,2269,26.0,4.1,4.6,7,No,11,4.0,Rendah (<2x),Tidak,45-59 Tahun,0
+21,Female,12,3396,32.6,8.1,7.0,3,No,0,3.0,Tinggi (>5x),Ya,20-29 Tahun,0
+28,Male,3,2663,28.1,9.0,8.3,3,No,4,6.0,Normal,Ya,20-29 Tahun,0
+34,Male,9,1989,24.4,1.9,4.2,7,No,9,1.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+55,Female,8,3355,23.2,0.6,7.7,2,Yes,4,2.8,Tinggi (>5x),Ya,45-59 Tahun,1
+40,Male,7,3180,21.4,8.9,5.6,1,No,4,1.8,Tinggi (>5x),Ya,30-44 Tahun,0
+22,Male,10,1701,31.1,4.0,6.4,9,No,9,9.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+52,Male,6,1732,24.4,5.5,8.6,9,Yes,5,3.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+24,Male,14,1679,26.4,4.9,5.8,7,No,7,2.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+40,Male,11,3535,26.5,0.7,6.3,7,No,2,4.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+27,Female,9,1711,27.6,6.2,4.1,3,No,8,2.3,Tinggi (>5x),Tidak,20-29 Tahun,0
+33,Male,6,2182,32.4,0.7,4.4,2,No,0,1.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+51,Female,12,2978,34.8,3.7,5.3,7,No,3,6.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+26,Male,14,2437,25.1,8.0,4.1,9,No,8,8.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+23,Female,6,3136,32.0,4.3,7.2,1,Yes,7,1.8,Tinggi (>5x),Ya,20-29 Tahun,1
+34,Female,14,2097,31.0,10.3,6.1,4,Yes,9,9.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+46,Male,7,3212,27.7,5.7,6.6,6,Yes,8,3.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+20,Female,0,1748,34.6,3.1,5.1,7,No,0,8.0,Rendah (<2x),Tidak,20-29 Tahun,0
+37,Male,9,1631,21.3,2.4,5.4,7,Yes,8,8.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+37,Male,9,2572,32.7,3.9,8.8,4,Yes,10,3.3,Tinggi (>5x),Ya,30-44 Tahun,1
+44,Male,7,3293,25.5,1.0,4.2,5,No,11,6.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+19,Male,3,3277,32.3,3.7,8.4,1,No,9,1.2,Normal,Ya,<20 Tahun,0
+36,Other,3,3429,33.3,4.9,6.8,1,No,8,4.1,Normal,Ya,30-44 Tahun,0
+37,Female,3,1854,19.0,7.1,6.9,3,No,0,1.1,Normal,Tidak,30-44 Tahun,0
+49,Female,5,3273,32.8,6.6,6.6,3,No,0,2.9,Normal,Ya,45-59 Tahun,0
+24,Male,6,2314,25.6,7.1,4.3,8,No,8,9.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+58,Female,5,3473,26.8,0.2,4.5,9,No,10,5.2,Normal,Tidak,45-59 Tahun,0
+50,Male,0,2166,28.7,2.3,6.9,1,No,5,5.1,Rendah (<2x),Tidak,45-59 Tahun,0
+57,Female,11,2350,33.7,6.5,5.7,2,Yes,3,4.2,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Male,7,3031,18.3,4.8,8.5,2,No,6,2.8,Tinggi (>5x),Ya,30-44 Tahun,0
+35,Male,12,2172,25.8,0.3,6.2,4,No,4,4.8,Tinggi (>5x),Tidak,30-44 Tahun,0
+57,Male,9,2925,29.6,8.1,4.8,2,No,9,4.1,Tinggi (>5x),Ya,45-59 Tahun,0
+19,Male,14,2557,30.7,7.8,7.6,7,No,6,8.0,Tinggi (>5x),Tidak,<20 Tahun,0
+28,Female,10,2234,29.9,5.6,5.5,9,Yes,7,3.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+45,Male,12,2934,20.1,0.5,6.6,7,Yes,7,7.7,Tinggi (>5x),Tidak,45-59 Tahun,1
+42,Female,6,3455,22.9,7.7,7.5,6,No,0,6.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Male,5,1665,24.4,5.7,8.5,1,Yes,7,5.1,Normal,Tidak,30-44 Tahun,1
+50,Female,5,2554,31.6,7.6,8.0,9,No,5,3.8,Normal,Tidak,45-59 Tahun,0
+47,Male,4,2721,22.3,7.7,7.5,5,No,3,3.9,Normal,Tidak,45-59 Tahun,0
+59,Male,5,2292,21.4,8.0,7.3,5,No,11,3.9,Normal,Tidak,45-59 Tahun,0
+53,Female,11,1821,34.5,5.4,8.7,6,No,7,8.7,Tinggi (>5x),Tidak,45-59 Tahun,0
+24,Male,8,1966,17.8,1.8,5.5,9,No,2,4.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+33,Male,9,3208,35.0,6.7,4.1,8,No,3,9.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+44,Female,8,3236,29.7,6.3,5.3,8,No,5,6.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+19,Female,14,2856,32.3,7.4,5.0,8,No,10,7.0,Tinggi (>5x),Tidak,<20 Tahun,0
+18,Male,9,2223,22.9,1.8,6.6,1,No,6,2.8,Tinggi (>5x),Tidak,<20 Tahun,0
+29,Male,7,2393,17.9,1.8,7.1,1,No,3,7.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+54,Male,8,2584,32.5,7.4,4.1,5,No,6,0.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+50,Male,12,2562,30.8,8.9,7.4,9,No,5,5.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+25,Female,9,2231,20.6,7.6,5.6,2,No,10,2.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+58,Female,7,2355,30.5,5.8,7.3,9,Yes,7,5.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+52,Female,7,2952,31.3,6.6,6.7,8,No,0,9.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+36,Male,0,2191,29.3,9.1,5.8,9,Yes,9,1.1,Rendah (<2x),Tidak,30-44 Tahun,1
+33,Male,9,3468,31.0,5.6,4.7,4,Yes,10,4.0,Tinggi (>5x),Ya,30-44 Tahun,1
+20,Male,10,2422,32.1,6.4,4.6,1,No,6,1.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+38,Female,4,2809,28.5,1.6,8.2,1,No,11,1.0,Normal,Ya,30-44 Tahun,0
+40,Male,3,2251,19.6,4.6,8.6,5,Yes,6,8.0,Normal,Tidak,30-44 Tahun,1
+49,Male,1,3476,26.4,7.4,7.1,2,No,10,2.2,Rendah (<2x),Ya,45-59 Tahun,0
+41,Female,7,2993,19.5,2.7,4.5,8,No,6,0.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+27,Male,2,1834,25.2,2.0,6.0,5,No,6,7.9,Normal,Tidak,20-29 Tahun,0
+40,Female,3,3143,25.4,3.1,7.5,5,Yes,9,4.0,Normal,Tidak,30-44 Tahun,1
+53,Male,11,3180,19.3,2.4,7.9,2,No,9,5.0,Tinggi (>5x),Ya,45-59 Tahun,0
+57,Male,9,3244,19.7,4.1,3.9,8,No,8,5.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+36,Female,8,2549,31.7,8.9,7.6,1,No,8,0.9,Tinggi (>5x),Ya,30-44 Tahun,0
+51,Female,1,2099,34.3,4.9,5.8,2,No,1,1.0,Rendah (<2x),Tidak,45-59 Tahun,0
+41,Female,2,2332,19.2,1.9,5.3,4,Yes,6,2.7,Normal,Tidak,30-44 Tahun,1
+52,Male,3,2517,34.1,0.7,4.1,5,No,6,6.3,Normal,Tidak,45-59 Tahun,0
+42,Female,9,2996,26.8,7.0,6.8,2,Yes,3,1.0,Tinggi (>5x),Ya,30-44 Tahun,1
+47,Male,0,2466,23.2,3.7,8.3,1,No,8,1.8,Rendah (<2x),Tidak,45-59 Tahun,0
+35,Male,6,2219,19.3,8.1,8.7,9,No,7,6.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+34,Female,1,1991,26.3,6.9,6.8,1,Yes,11,1.0,Rendah (<2x),Tidak,30-44 Tahun,1
+18,Male,4,2962,31.4,7.9,6.6,4,No,0,6.9,Normal,Ya,<20 Tahun,0
+51,Male,14,2801,29.5,2.6,4.3,5,No,1,4.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+33,Male,0,2509,18.9,6.6,6.7,4,Yes,1,5.9,Rendah (<2x),Ya,30-44 Tahun,1
+59,Male,2,1797,19.2,2.7,5.9,8,No,11,8.2,Normal,Tidak,45-59 Tahun,0
+54,Male,11,2891,24.6,9.6,7.1,8,Yes,6,9.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+51,Female,1,1893,23.2,6.3,5.9,9,No,10,5.9,Rendah (<2x),Tidak,45-59 Tahun,0
+21,Male,0,2246,22.2,2.9,5.2,5,Yes,7,9.0,Rendah (<2x),Tidak,20-29 Tahun,1
+50,Female,6,2499,22.6,2.7,4.6,7,No,0,4.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+31,Female,4,3507,26.5,2.0,5.6,3,No,3,6.1,Normal,Ya,30-44 Tahun,0
+38,Male,0,3052,34.0,6.9,4.7,4,No,9,8.0,Rendah (<2x),Ya,30-44 Tahun,0
+36,Male,5,2798,24.6,2.1,5.0,9,No,11,9.0,Normal,Tidak,30-44 Tahun,0
+26,Male,4,3243,33.3,5.8,8.9,1,No,4,3.2,Normal,Ya,20-29 Tahun,0
+23,Female,14,3323,26.5,2.7,6.2,2,Yes,8,1.9,Tinggi (>5x),Ya,20-29 Tahun,1
+20,Male,2,1777,25.7,6.7,6.7,5,Yes,6,6.0,Normal,Tidak,20-29 Tahun,1
+34,Female,11,2198,22.2,8.3,8.4,3,No,7,5.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+50,Male,6,3171,29.1,7.9,9.1,2,Yes,10,1.1,Tinggi (>5x),Ya,45-59 Tahun,1
+37,Male,9,3438,28.6,1.8,8.1,3,Yes,6,9.2,Tinggi (>5x),Ya,30-44 Tahun,1
+38,Male,8,2878,24.1,0.9,5.6,1,No,4,8.8,Tinggi (>5x),Ya,30-44 Tahun,0
+47,Female,13,3335,29.1,7.0,5.5,1,No,4,2.3,Tinggi (>5x),Ya,45-59 Tahun,0
+57,Female,12,3254,19.8,4.0,5.9,1,Yes,9,9.0,Tinggi (>5x),Ya,45-59 Tahun,1
+55,Male,12,2212,33.4,4.0,7.5,8,No,10,6.7,Tinggi (>5x),Tidak,45-59 Tahun,0
+25,Female,8,3463,26.3,0.4,7.5,3,Yes,5,5.3,Tinggi (>5x),Ya,20-29 Tahun,1
+45,Female,13,1831,25.5,2.5,5.6,1,No,4,7.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+44,Female,8,2473,26.5,0.1,4.7,5,Yes,11,9.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+51,Female,1,3060,28.8,9.0,7.2,3,No,10,8.0,Rendah (<2x),Ya,45-59 Tahun,0
+39,Male,2,3172,19.3,2.3,4.5,8,No,8,6.0,Normal,Tidak,30-44 Tahun,0
+46,Male,6,1787,29.5,5.5,6.9,4,Yes,2,3.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Male,4,2301,21.8,0.4,7.6,4,Yes,2,0.8,Normal,Tidak,30-44 Tahun,1
+45,Female,1,3132,29.8,6.7,7.5,5,No,6,5.8,Rendah (<2x),Tidak,45-59 Tahun,0
+50,Female,2,2632,31.8,3.4,7.8,6,Yes,6,2.9,Normal,Tidak,45-59 Tahun,1
+22,Male,9,2237,31.5,8.7,8.3,7,No,5,6.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+35,Male,5,3013,27.3,8.8,6.5,4,No,2,6.3,Normal,Ya,30-44 Tahun,0
+22,Female,12,2241,27.3,3.3,7.8,8,No,6,3.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+52,Other,6,3366,20.3,9.1,7.2,6,No,4,2.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+34,Female,8,2807,31.1,10.0,4.9,1,No,6,9.1,Tinggi (>5x),Ya,30-44 Tahun,0
+46,Male,0,2750,22.4,8.1,4.0,1,No,1,1.9,Rendah (<2x),Ya,45-59 Tahun,0
+48,Male,10,3069,26.3,8.5,5.4,9,No,5,3.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+45,Male,7,3240,22.9,2.4,6.2,6,Yes,7,0.8,Tinggi (>5x),Tidak,45-59 Tahun,1
+24,Female,7,2528,20.3,5.8,7.1,8,Yes,0,6.8,Tinggi (>5x),Tidak,20-29 Tahun,1
+52,Male,11,1786,28.9,0.7,8.2,7,No,3,0.7,Tinggi (>5x),Tidak,45-59 Tahun,0
+58,Female,13,3049,18.8,0.9,5.0,6,No,10,9.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+54,Male,2,3272,30.7,9.8,4.7,4,Yes,0,1.0,Normal,Ya,45-59 Tahun,1
+41,Female,3,2142,23.7,3.3,8.7,7,No,0,4.9,Normal,Tidak,30-44 Tahun,0
+46,Female,9,2503,17.7,7.6,4.6,9,No,9,7.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+48,Female,5,1763,26.4,8.0,6.5,7,Yes,11,2.9,Normal,Tidak,45-59 Tahun,1
+52,Male,9,2929,18.4,8.7,6.8,1,No,10,9.1,Tinggi (>5x),Ya,45-59 Tahun,0
+50,Male,6,1757,22.6,10.0,6.8,9,Yes,7,8.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+37,Male,12,1930,30.0,2.5,4.3,4,No,6,3.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+49,Female,13,1617,19.1,0.7,4.2,3,Yes,11,5.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+39,Female,3,2701,32.1,3.9,4.5,4,No,9,7.0,Normal,Ya,30-44 Tahun,0
+49,Female,7,3170,18.5,1.6,7.0,4,Yes,0,3.8,Tinggi (>5x),Ya,45-59 Tahun,1
+21,Female,4,2779,22.2,0.2,6.8,2,No,10,5.0,Normal,Ya,20-29 Tahun,0
+34,Female,7,3171,30.8,3.7,5.3,1,No,1,2.9,Tinggi (>5x),Ya,30-44 Tahun,0
+41,Male,3,3354,23.0,7.8,7.3,1,Yes,3,9.1,Normal,Ya,30-44 Tahun,1
+58,Female,2,2606,20.0,5.6,8.1,8,No,0,9.0,Normal,Tidak,45-59 Tahun,0
+48,Male,8,1913,26.5,3.0,6.6,2,No,2,7.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+58,Female,0,3490,31.8,2.2,7.4,4,No,7,7.3,Rendah (<2x),Ya,45-59 Tahun,0
+42,Male,10,2492,23.8,-0.2,5.3,8,Yes,7,7.1,Tinggi (>5x),Tidak,30-44 Tahun,1
+49,Male,5,1960,31.4,7.6,5.5,2,No,5,5.0,Normal,Tidak,45-59 Tahun,0
+39,Female,8,2079,32.8,6.3,7.1,9,No,5,9.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+41,Male,6,1975,25.6,7.3,8.5,7,No,4,2.7,Tinggi (>5x),Tidak,30-44 Tahun,0
+19,Female,3,1735,33.2,0.4,7.9,7,Yes,8,3.9,Normal,Tidak,<20 Tahun,1
+43,Male,12,2757,24.0,8.3,7.0,1,No,3,1.3,Tinggi (>5x),Ya,30-44 Tahun,0
+59,Male,0,2205,34.5,6.1,7.6,2,No,9,6.1,Rendah (<2x),Tidak,45-59 Tahun,0
+20,Male,11,3350,19.3,5.3,5.8,4,No,11,3.8,Tinggi (>5x),Ya,20-29 Tahun,0
+43,Male,1,2513,26.5,6.2,7.1,4,No,11,0.9,Rendah (<2x),Ya,30-44 Tahun,0
+34,Female,11,2060,26.4,8.5,6.4,3,No,11,2.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+57,Male,4,2622,26.5,5.7,5.0,7,Yes,6,3.0,Normal,Tidak,45-59 Tahun,1
+51,Female,11,1912,29.0,5.7,7.5,8,Yes,0,8.8,Tinggi (>5x),Tidak,45-59 Tahun,1
+26,Male,10,2195,30.1,9.9,6.9,2,Yes,8,7.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+56,Female,4,2605,18.6,8.0,5.9,4,Yes,6,5.0,Normal,Ya,45-59 Tahun,1
+46,Female,7,1877,20.4,4.6,8.4,3,No,9,3.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+59,Female,5,2241,30.0,6.9,4.1,2,Yes,11,0.6,Normal,Tidak,45-59 Tahun,1
+43,Male,7,3288,29.6,4.0,5.5,6,Yes,8,8.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+42,Male,2,2111,30.3,6.1,7.8,6,Yes,1,3.1,Normal,Tidak,30-44 Tahun,1
+42,Female,5,2983,34.0,9.3,7.5,2,Yes,5,9.0,Normal,Ya,30-44 Tahun,1
+30,Male,11,1606,30.1,9.4,5.6,5,Yes,9,3.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+24,Female,12,2564,23.5,3.2,7.4,6,No,11,3.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+52,Female,9,1701,19.6,5.4,6.1,5,No,10,9.2,Tinggi (>5x),Tidak,45-59 Tahun,0
+37,Male,2,3306,31.6,2.1,7.8,3,Yes,3,1.8,Normal,Ya,30-44 Tahun,1
+18,Female,5,2061,28.9,9.8,6.2,8,No,6,4.9,Normal,Tidak,<20 Tahun,0
+26,Male,5,3178,19.3,9.9,6.2,7,Yes,6,3.8,Normal,Tidak,20-29 Tahun,1
+34,Male,1,1798,24.1,6.4,8.8,5,Yes,5,9.2,Rendah (<2x),Tidak,30-44 Tahun,1
+31,Female,6,2145,34.4,8.0,5.3,6,Yes,7,5.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+29,Female,11,3249,26.6,7.5,4.6,4,No,5,9.0,Tinggi (>5x),Ya,20-29 Tahun,0
+40,Female,1,2621,25.7,5.6,6.9,5,No,8,8.9,Rendah (<2x),Tidak,30-44 Tahun,0
+33,Male,5,3130,25.8,0.6,8.7,5,Yes,4,2.0,Normal,Tidak,30-44 Tahun,1
+51,Female,2,2241,24.3,6.8,4.3,5,No,7,3.1,Normal,Tidak,45-59 Tahun,0
+19,Female,1,3223,24.4,6.4,5.8,5,Yes,8,5.0,Rendah (<2x),Tidak,<20 Tahun,1
+50,Female,6,2440,18.6,3.7,6.6,5,Yes,9,0.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Male,13,2470,30.7,9.5,4.8,7,No,3,1.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+38,Female,3,3128,25.3,1.8,7.3,5,No,5,1.0,Normal,Tidak,30-44 Tahun,0
+42,Male,7,3125,32.0,5.0,9.0,5,No,10,9.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Male,5,1598,26.5,6.9,6.2,9,No,9,8.2,Normal,Tidak,30-44 Tahun,0
+38,Female,7,2784,22.0,4.9,5.7,3,Yes,7,5.1,Tinggi (>5x),Ya,30-44 Tahun,1
+59,Male,9,2680,29.2,6.3,6.1,6,Yes,8,5.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+23,Female,3,2735,26.4,2.8,4.6,1,No,11,9.1,Normal,Ya,20-29 Tahun,0
+31,Male,4,2445,33.3,1.5,8.4,5,Yes,4,3.0,Normal,Tidak,30-44 Tahun,1
+54,Male,12,2549,22.0,6.4,6.2,8,No,11,3.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+50,Female,12,2755,29.5,6.2,5.9,5,No,5,6.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+26,Female,14,2030,28.0,1.7,7.2,9,No,10,9.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+23,Female,14,2204,23.0,7.0,6.2,6,Yes,3,5.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+56,Female,8,3296,19.6,4.9,7.2,8,No,4,2.2,Tinggi (>5x),Tidak,45-59 Tahun,0
+23,Female,9,2199,31.0,8.4,8.1,3,No,8,1.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+40,Female,13,1904,23.0,1.7,8.6,7,Yes,9,0.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+47,Male,13,2839,29.0,0.4,7.2,7,Yes,10,9.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+51,Female,8,2164,24.8,7.8,8.8,6,Yes,5,7.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+57,Male,6,3287,30.0,6.2,4.8,7,Yes,5,6.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+33,Other,11,2171,21.2,7.3,6.4,2,Yes,7,2.8,Tinggi (>5x),Tidak,30-44 Tahun,1
+29,Female,0,3367,33.1,8.3,6.9,9,No,10,8.0,Rendah (<2x),Tidak,20-29 Tahun,0
+59,Male,11,1837,22.8,7.9,6.6,1,No,3,2.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+48,Female,6,3411,24.2,9.6,6.0,1,Yes,2,1.9,Tinggi (>5x),Ya,45-59 Tahun,1
+36,Female,3,2124,18.9,5.3,5.7,3,No,6,3.2,Normal,Tidak,30-44 Tahun,0
+34,Male,2,2556,26.5,4.9,4.5,3,Yes,4,7.1,Normal,Ya,30-44 Tahun,1
+36,Female,13,1613,27.2,4.0,6.0,1,No,1,1.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+45,Female,12,1970,22.8,1.6,4.8,7,No,1,8.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+43,Male,6,1904,32.0,5.6,7.7,4,No,10,7.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+54,Female,11,2075,18.2,2.7,5.1,2,No,5,3.7,Tinggi (>5x),Tidak,45-59 Tahun,0
+43,Male,2,2827,24.4,9.2,4.4,5,Yes,7,5.1,Normal,Tidak,30-44 Tahun,1
+40,Female,7,2004,23.6,5.9,6.9,6,Yes,0,5.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+28,Female,4,2498,20.0,3.4,8.3,4,No,5,1.0,Normal,Tidak,20-29 Tahun,0
+18,Male,7,1845,24.6,0.5,7.0,2,Yes,11,1.0,Tinggi (>5x),Tidak,<20 Tahun,1
+19,Female,7,3310,26.4,0.3,5.6,5,Yes,1,0.8,Tinggi (>5x),Tidak,<20 Tahun,1
+50,Female,7,2022,24.9,4.4,7.9,3,No,1,7.2,Tinggi (>5x),Tidak,45-59 Tahun,0
+49,Male,11,2345,26.9,0.8,6.7,2,Yes,6,7.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+42,Female,0,1831,27.8,6.1,4.3,1,No,9,4.0,Rendah (<2x),Tidak,30-44 Tahun,0
+58,Male,8,1619,18.1,8.7,6.8,2,No,0,2.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+17,Female,13,3331,25.9,9.0,8.5,6,Yes,5,3.1,Tinggi (>5x),Tidak,<20 Tahun,1
+33,Male,4,2234,34.4,6.7,6.0,8,Yes,6,8.0,Normal,Tidak,30-44 Tahun,1
+57,Male,3,2174,26.8,2.0,5.5,3,No,7,8.2,Normal,Tidak,45-59 Tahun,0
+23,Male,5,2385,29.8,8.4,4.9,9,No,6,6.2,Normal,Tidak,20-29 Tahun,0
+39,Female,4,3015,23.5,9.1,4.9,9,No,5,5.0,Normal,Tidak,30-44 Tahun,0
+46,Male,1,2614,31.5,2.0,6.3,2,Yes,8,8.9,Rendah (<2x),Ya,45-59 Tahun,1
+20,Female,7,2316,30.7,7.3,6.9,8,Yes,2,4.3,Tinggi (>5x),Tidak,20-29 Tahun,1
+28,Male,6,2549,27.2,3.2,4.2,5,No,10,1.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+43,Male,0,3387,34.5,7.8,8.6,4,No,5,0.9,Rendah (<2x),Ya,30-44 Tahun,0
+32,Female,4,2630,19.9,9.7,7.8,5,Yes,3,5.1,Normal,Tidak,30-44 Tahun,1
+54,Female,11,2514,26.5,0.1,6.9,4,No,1,2.1,Tinggi (>5x),Ya,45-59 Tahun,0
+38,Male,5,2060,31.1,8.9,8.1,8,Yes,0,6.0,Normal,Tidak,30-44 Tahun,1
+46,Female,3,1670,31.7,6.1,4.5,4,Yes,11,7.0,Normal,Tidak,45-59 Tahun,1
+30,Female,1,3387,20.1,10.0,6.4,6,Yes,11,1.0,Rendah (<2x),Tidak,30-44 Tahun,1
+45,Female,12,2814,22.3,4.9,7.1,2,No,0,6.0,Tinggi (>5x),Ya,45-59 Tahun,0
+22,Male,13,2657,18.5,8.4,8.0,5,No,10,8.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+47,Male,3,2716,22.7,0.7,7.8,6,No,9,5.1,Normal,Tidak,45-59 Tahun,0
+23,Female,0,3214,30.8,3.4,5.3,5,No,2,6.8,Rendah (<2x),Tidak,20-29 Tahun,0
+30,Male,6,2612,26.4,0.7,8.7,2,No,3,6.0,Tinggi (>5x),Ya,30-44 Tahun,0
+32,Female,1,1794,26.5,10.2,4.6,7,Yes,1,3.9,Rendah (<2x),Tidak,30-44 Tahun,1
+43,Female,12,2402,24.2,8.1,8.4,4,Yes,11,7.1,Tinggi (>5x),Tidak,30-44 Tahun,1
+43,Female,1,2294,17.7,8.5,8.9,8,Yes,10,9.0,Rendah (<2x),Tidak,30-44 Tahun,1
+38,Female,8,3069,22.6,9.6,4.9,7,Yes,10,6.8,Tinggi (>5x),Tidak,30-44 Tahun,1
+55,Other,4,3453,29.5,1.1,7.6,7,No,10,5.2,Normal,Tidak,45-59 Tahun,0
+53,Male,1,2189,34.4,4.0,4.1,9,No,0,6.9,Rendah (<2x),Tidak,45-59 Tahun,0
+50,Female,10,2000,32.3,0.6,6.0,1,No,3,3.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+47,Male,8,2802,17.8,1.8,6.7,6,Yes,6,2.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+54,Male,8,3035,33.6,2.2,6.9,6,Yes,9,4.7,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Female,0,2322,31.6,4.7,8.7,6,No,10,4.1,Rendah (<2x),Tidak,30-44 Tahun,0
+24,Female,10,1951,31.3,2.9,7.4,6,Yes,5,4.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+40,Other,2,2405,25.8,1.0,6.4,7,No,5,8.1,Normal,Tidak,30-44 Tahun,0
+53,Female,3,2090,25.0,1.7,8.0,6,No,10,3.9,Normal,Tidak,45-59 Tahun,0
+51,Male,13,2549,23.1,1.3,8.8,1,No,8,8.8,Tinggi (>5x),Ya,45-59 Tahun,0
+47,Male,6,3173,19.0,9.4,6.6,3,No,1,7.0,Tinggi (>5x),Ya,45-59 Tahun,0
+28,Female,9,1557,21.6,7.7,8.9,2,No,3,6.8,Tinggi (>5x),Tidak,20-29 Tahun,0
+36,Male,7,2125,22.2,9.3,4.4,6,Yes,4,8.1,Tinggi (>5x),Tidak,30-44 Tahun,1
+48,Male,1,2087,26.6,4.4,8.1,8,No,0,6.1,Rendah (<2x),Tidak,45-59 Tahun,0
+17,Male,6,2879,30.9,2.7,5.3,3,Yes,7,7.8,Tinggi (>5x),Ya,<20 Tahun,1
+23,Male,5,1785,26.0,8.1,4.8,8,Yes,7,2.8,Normal,Tidak,20-29 Tahun,1
+21,Male,2,2089,19.0,3.5,6.3,8,No,5,1.1,Normal,Tidak,20-29 Tahun,0
+40,Male,4,3192,34.5,3.0,7.1,5,No,11,6.2,Normal,Tidak,30-44 Tahun,0
+40,Male,10,2643,34.0,2.6,5.9,8,Yes,4,0.7,Tinggi (>5x),Tidak,30-44 Tahun,1
+33,Male,14,2130,31.0,1.3,4.4,6,No,7,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+19,Other,5,2479,35.3,2.5,7.1,5,No,2,1.8,Normal,Tidak,<20 Tahun,0
+45,Male,11,2169,27.2,3.6,8.5,9,No,2,2.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+50,Male,4,1849,34.7,6.7,5.9,7,No,1,6.8,Normal,Tidak,45-59 Tahun,0
+45,Female,3,2744,18.9,0.6,5.1,8,Yes,4,2.1,Normal,Tidak,45-59 Tahun,1
+37,Male,9,2863,24.4,2.2,6.2,1,No,2,7.9,Tinggi (>5x),Ya,30-44 Tahun,0
+41,Female,10,2160,21.5,7.9,4.3,2,Yes,2,6.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+29,Female,14,2441,21.3,1.5,8.1,8,No,5,7.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+52,Male,0,2121,20.1,3.5,8.0,9,Yes,7,6.8,Rendah (<2x),Tidak,45-59 Tahun,1
+50,Male,9,3086,28.6,8.3,6.8,4,No,1,6.1,Tinggi (>5x),Ya,45-59 Tahun,0
+49,Female,5,2881,30.9,1.7,5.8,9,Yes,3,8.9,Normal,Tidak,45-59 Tahun,1
+30,Male,12,2356,20.6,4.9,6.7,9,Yes,6,6.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+20,Female,2,2419,31.9,2.9,7.9,7,Yes,0,8.9,Normal,Tidak,20-29 Tahun,1
+18,Male,13,1981,29.1,5.9,7.2,2,No,0,2.9,Tinggi (>5x),Tidak,<20 Tahun,0
+50,Other,7,2507,24.8,8.0,7.9,9,No,11,3.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+57,Male,9,1838,29.4,1.4,7.0,4,No,9,1.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+28,Female,13,1906,22.4,5.7,6.1,8,Yes,6,5.1,Tinggi (>5x),Tidak,20-29 Tahun,1
+46,Female,13,3227,24.1,5.4,8.7,7,No,6,4.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+30,Female,4,3519,33.1,1.4,6.8,7,No,0,2.0,Normal,Tidak,30-44 Tahun,0
+30,Female,2,1609,22.7,6.1,7.0,8,Yes,0,9.3,Normal,Tidak,30-44 Tahun,1
+47,Male,6,2089,26.2,2.4,5.1,1,Yes,3,3.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+19,Male,3,2500,33.3,4.6,7.2,5,No,4,8.1,Normal,Tidak,<20 Tahun,0
+51,Male,13,1830,29.9,0.7,7.0,2,No,4,5.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+41,Male,8,2724,18.8,4.7,4.8,2,No,3,5.1,Tinggi (>5x),Ya,30-44 Tahun,0
+34,Female,14,2648,20.2,3.2,4.3,1,No,7,1.1,Tinggi (>5x),Ya,30-44 Tahun,0
+43,Male,4,2645,18.3,8.2,7.0,5,No,6,3.9,Normal,Tidak,30-44 Tahun,0
+25,Male,2,3137,28.8,4.9,7.9,2,Yes,8,3.2,Normal,Ya,20-29 Tahun,1
+46,Other,1,2148,25.4,4.2,6.5,4,No,6,0.9,Rendah (<2x),Tidak,45-59 Tahun,0
+43,Female,10,2490,20.4,4.5,5.1,3,No,9,5.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+28,Female,1,2262,34.4,7.4,7.4,3,Yes,0,6.1,Rendah (<2x),Tidak,20-29 Tahun,1
+43,Other,2,3256,27.1,5.7,4.4,2,No,6,1.9,Normal,Ya,30-44 Tahun,0
+52,Male,1,2203,22.4,6.8,6.1,6,Yes,0,3.1,Rendah (<2x),Tidak,45-59 Tahun,1
+59,Male,13,1844,26.6,7.9,4.7,2,No,6,6.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+24,Female,3,2613,29.8,8.5,5.0,8,No,9,4.1,Normal,Tidak,20-29 Tahun,0
+22,Female,1,2549,19.0,3.1,5.2,8,Yes,7,8.9,Rendah (<2x),Tidak,20-29 Tahun,1
+28,Male,9,1922,22.4,5.4,5.9,5,No,10,5.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+46,Female,8,3385,31.9,8.5,4.4,7,No,8,4.4,Tinggi (>5x),Tidak,45-59 Tahun,0
+53,Male,1,3419,25.6,9.9,5.9,4,Yes,11,2.1,Rendah (<2x),Ya,45-59 Tahun,1
+43,Male,8,2111,27.6,8.8,6.6,1,No,2,5.8,Tinggi (>5x),Tidak,30-44 Tahun,0
+38,Female,12,2265,25.4,3.7,6.4,2,No,3,1.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+52,Female,5,3132,18.4,2.0,5.9,4,No,3,7.2,Normal,Ya,45-59 Tahun,0
+28,Female,0,2412,20.8,4.8,8.3,1,No,11,3.2,Rendah (<2x),Tidak,20-29 Tahun,0
+53,Male,3,2632,25.8,7.4,4.6,8,No,8,8.9,Normal,Tidak,45-59 Tahun,0
+25,Female,15,2716,21.6,4.8,6.6,9,Yes,6,5.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+52,Male,0,2760,32.1,8.3,4.3,3,Yes,9,5.9,Rendah (<2x),Ya,45-59 Tahun,1
+52,Female,13,2603,34.9,3.6,7.0,2,No,4,7.9,Tinggi (>5x),Ya,45-59 Tahun,0
+53,Female,5,3165,30.9,8.4,6.8,5,No,6,3.2,Normal,Tidak,45-59 Tahun,0
+35,Female,7,2302,32.7,4.2,8.4,3,No,7,3.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+56,Female,12,1869,21.9,3.7,6.8,7,No,0,5.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+48,Female,3,2759,34.1,4.3,8.8,6,Yes,11,3.1,Normal,Tidak,45-59 Tahun,1
+41,Female,2,2873,21.2,7.4,4.2,1,Yes,6,8.2,Normal,Ya,30-44 Tahun,1
+40,Male,2,2496,34.3,1.1,4.4,8,No,6,7.9,Normal,Tidak,30-44 Tahun,0
+49,Male,8,2725,35.2,2.3,4.3,2,No,6,2.2,Tinggi (>5x),Ya,45-59 Tahun,0
+40,Male,5,3141,30.5,9.7,5.0,5,Yes,1,4.0,Normal,Tidak,30-44 Tahun,1
+28,Male,8,3411,34.6,1.8,6.6,9,No,6,1.2,Tinggi (>5x),Tidak,20-29 Tahun,0
+31,Female,12,3171,27.8,5.8,7.1,8,No,8,3.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Female,4,1851,22.3,5.7,4.3,2,No,10,4.2,Normal,Tidak,30-44 Tahun,0
+43,Female,1,3257,25.6,5.1,8.6,9,Yes,1,8.9,Rendah (<2x),Tidak,30-44 Tahun,1
+52,Male,7,3432,27.8,6.2,8.2,5,Yes,6,3.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+59,Female,4,3410,18.9,2.3,5.5,6,Yes,3,2.0,Normal,Tidak,45-59 Tahun,1
+47,Male,1,3192,28.3,5.8,4.5,3,No,10,9.1,Rendah (<2x),Ya,45-59 Tahun,0
+34,Female,3,1697,34.9,3.8,4.7,3,No,1,9.2,Normal,Tidak,30-44 Tahun,0
+36,Female,8,1972,21.1,6.7,4.6,8,No,6,1.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+43,Female,14,1778,31.3,1.3,4.7,2,No,4,5.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+39,Female,3,3405,33.3,5.9,6.8,2,No,0,7.9,Normal,Ya,30-44 Tahun,0
+30,Female,12,2516,33.7,2.4,5.2,5,No,4,3.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+36,Male,11,3280,34.2,2.9,5.7,6,No,6,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+53,Female,11,3010,26.6,2.1,9.0,2,Yes,11,2.0,Tinggi (>5x),Ya,45-59 Tahun,1
+29,Female,11,2601,34.6,1.7,7.3,5,No,2,6.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+57,Male,12,2248,30.9,8.4,8.6,7,No,6,0.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+35,Female,14,1831,20.8,2.7,4.7,8,Yes,5,7.2,Tinggi (>5x),Tidak,30-44 Tahun,1
+28,Female,13,2299,26.3,9.4,6.6,7,Yes,7,3.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+26,Female,3,3074,29.9,9.6,6.8,8,Yes,4,7.2,Normal,Tidak,20-29 Tahun,1
+25,Female,1,3114,21.7,5.6,4.5,9,No,1,3.9,Rendah (<2x),Tidak,20-29 Tahun,0
+45,Female,12,1854,28.7,1.7,4.1,5,No,8,8.7,Tinggi (>5x),Tidak,45-59 Tahun,0
+31,Female,11,2958,29.5,4.9,6.6,5,No,6,5.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+47,Female,14,3130,20.5,4.9,7.1,4,No,7,3.1,Tinggi (>5x),Ya,45-59 Tahun,0
+36,Female,5,3098,27.3,3.6,6.6,9,Yes,5,8.0,Normal,Tidak,30-44 Tahun,1
+33,Female,12,2299,30.5,0.5,6.4,5,No,9,6.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+53,Female,13,3170,17.9,8.4,4.0,5,No,8,2.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+30,Male,7,3004,18.0,7.9,5.6,7,No,6,7.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Female,6,3067,33.8,6.6,4.5,3,No,5,6.1,Tinggi (>5x),Ya,30-44 Tahun,0
+53,Male,2,2584,21.6,2.2,8.9,4,No,10,1.0,Normal,Ya,45-59 Tahun,0
+40,Female,14,2984,28.6,2.3,6.6,5,Yes,10,8.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+57,Male,4,2036,23.5,2.3,5.7,1,No,1,5.2,Normal,Tidak,45-59 Tahun,0
+60,Female,2,2330,32.7,2.8,5.8,4,Yes,2,6.9,Normal,Tidak,60+ Tahun,1
+57,Male,7,3357,30.5,-0.1,5.2,5,No,3,7.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+31,Female,9,2909,20.1,8.6,4.5,7,No,9,2.6,Tinggi (>5x),Tidak,30-44 Tahun,0
+48,Female,8,2549,25.5,7.9,5.0,5,Yes,5,4.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+23,Female,1,2737,18.7,6.4,7.9,1,No,0,6.9,Rendah (<2x),Ya,20-29 Tahun,0
+52,Male,13,2162,26.5,7.6,7.3,7,Yes,8,8.2,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Male,10,2070,29.8,1.6,6.6,8,No,4,1.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+46,Female,1,3408,20.2,4.4,6.4,7,Yes,11,9.1,Rendah (<2x),Tidak,45-59 Tahun,1
+27,Other,12,2612,23.1,3.4,8.6,4,No,6,7.0,Tinggi (>5x),Ya,20-29 Tahun,0
+40,Female,14,2911,24.9,0.9,4.4,8,Yes,8,8.1,Tinggi (>5x),Tidak,30-44 Tahun,1
+28,Male,7,1754,33.6,5.0,5.4,5,No,8,5.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+26,Female,14,3369,35.4,9.1,5.7,9,No,0,5.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+28,Female,8,2863,18.7,0.2,7.9,5,No,0,9.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+35,Female,6,1740,30.4,3.0,9.0,1,No,2,4.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+55,Male,2,3051,24.4,1.8,5.2,9,No,5,4.9,Normal,Tidak,45-59 Tahun,0
+25,Female,8,2587,24.9,2.3,8.3,5,Yes,1,9.1,Tinggi (>5x),Tidak,20-29 Tahun,1
+30,Female,2,3360,30.7,9.2,8.3,6,Yes,9,1.1,Normal,Tidak,30-44 Tahun,1
+57,Other,4,3288,33.6,4.4,5.2,4,No,11,3.9,Normal,Ya,45-59 Tahun,0
+59,Male,8,2095,34.7,4.5,6.1,6,No,10,7.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+25,Female,11,1642,27.4,7.7,6.0,8,Yes,0,8.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+44,Female,13,1937,24.5,1.5,8.9,3,No,0,5.8,Tinggi (>5x),Tidak,30-44 Tahun,0
+20,Male,13,2568,31.5,5.0,4.9,5,Yes,4,8.1,Tinggi (>5x),Tidak,20-29 Tahun,1
+21,Female,2,1888,22.5,4.4,8.0,2,Yes,3,8.8,Normal,Tidak,20-29 Tahun,1
+46,Female,6,2967,27.6,6.1,5.6,2,No,0,4.1,Tinggi (>5x),Ya,45-59 Tahun,0
+54,Male,11,2655,24.2,9.8,7.6,7,No,3,1.2,Tinggi (>5x),Tidak,45-59 Tahun,0
+54,Male,0,2553,29.2,7.4,6.1,6,No,2,8.0,Rendah (<2x),Tidak,45-59 Tahun,0
+36,Female,3,1928,21.7,4.0,6.9,4,No,6,1.9,Normal,Tidak,30-44 Tahun,0
+26,Male,3,2761,21.1,8.3,8.2,5,No,8,1.1,Normal,Tidak,20-29 Tahun,0
+17,Female,6,2516,33.8,1.8,8.0,1,No,10,7.0,Tinggi (>5x),Ya,<20 Tahun,0
+40,Male,6,3290,20.0,0.3,8.4,7,Yes,0,8.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+34,Female,7,1912,26.9,2.1,4.2,8,Yes,6,8.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+25,Male,4,2435,21.8,3.6,7.5,9,No,3,3.0,Normal,Tidak,20-29 Tahun,0
+42,Female,6,2192,18.6,4.9,4.8,8,No,4,5.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+21,Other,11,3275,18.2,6.2,6.0,5,No,9,7.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+53,Other,3,2481,20.9,9.3,6.7,3,Yes,4,9.0,Normal,Tidak,45-59 Tahun,1
+47,Male,3,3490,22.8,5.0,6.6,6,No,5,7.9,Normal,Tidak,45-59 Tahun,0
+35,Female,3,2502,34.2,0.5,9.2,5,Yes,8,7.0,Normal,Tidak,30-44 Tahun,1
+56,Male,11,1933,28.2,0.4,4.9,5,No,1,3.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+44,Male,5,2278,25.7,5.6,7.4,6,Yes,6,1.9,Normal,Tidak,30-44 Tahun,1
+27,Male,6,2551,27.8,4.7,6.0,3,Yes,5,8.1,Tinggi (>5x),Ya,20-29 Tahun,1
+44,Female,1,1885,26.8,8.3,4.7,6,No,4,4.9,Rendah (<2x),Tidak,30-44 Tahun,0
+37,Female,15,2742,30.6,1.6,4.8,4,No,3,6.1,Tinggi (>5x),Ya,30-44 Tahun,0
+56,Female,4,2111,22.6,0.4,8.8,2,Yes,3,7.1,Normal,Tidak,45-59 Tahun,1
+21,Male,3,2549,23.9,4.9,8.4,8,Yes,5,1.1,Normal,Tidak,20-29 Tahun,1
+30,Male,14,1813,33.4,2.5,8.4,4,No,3,7.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+45,Other,13,1752,33.9,0.5,9.0,9,Yes,4,3.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+36,Male,12,2659,33.1,7.2,4.9,7,No,5,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+45,Male,2,2122,25.1,1.1,5.8,2,No,4,1.0,Normal,Tidak,45-59 Tahun,0
+25,Male,6,1774,31.2,6.1,7.2,4,Yes,6,2.1,Tinggi (>5x),Tidak,20-29 Tahun,1
+58,Female,10,3272,26.0,2.8,6.4,5,No,8,5.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+56,Female,11,1752,26.3,1.7,6.1,3,Yes,9,0.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+40,Male,5,1558,21.2,3.7,5.8,9,No,6,3.8,Normal,Tidak,30-44 Tahun,0
+19,Male,13,2549,28.2,8.2,7.0,5,No,6,8.2,Tinggi (>5x),Tidak,<20 Tahun,0
+31,Female,6,3440,21.4,3.8,6.9,2,No,3,4.8,Tinggi (>5x),Ya,30-44 Tahun,0
+45,Female,4,2493,23.8,7.5,4.8,3,Yes,0,9.1,Normal,Tidak,45-59 Tahun,1
+41,Male,12,2286,32.6,1.2,6.5,9,No,7,6.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+52,Female,5,1792,21.8,7.7,6.9,7,No,3,0.9,Normal,Tidak,45-59 Tahun,0
+54,Male,4,3215,19.0,2.5,6.9,2,No,0,5.9,Normal,Ya,45-59 Tahun,0
+23,Male,13,2134,19.2,7.1,5.0,9,No,4,6.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+49,Female,6,1983,34.3,5.6,7.7,4,Yes,7,6.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+38,Male,1,3431,26.7,9.2,4.0,9,No,3,7.8,Rendah (<2x),Tidak,30-44 Tahun,0
+34,Female,13,3380,24.8,3.8,5.8,2,Yes,11,6.0,Tinggi (>5x),Ya,30-44 Tahun,1
+38,Male,10,1757,31.8,0.7,8.0,4,Yes,7,5.2,Tinggi (>5x),Tidak,30-44 Tahun,1
+27,Male,4,2849,32.4,0.2,7.0,5,No,7,1.9,Normal,Tidak,20-29 Tahun,0
+55,Other,5,2204,23.6,8.2,5.4,2,Yes,2,4.2,Normal,Tidak,45-59 Tahun,1
+54,Male,5,1864,29.5,5.0,7.6,1,No,8,4.9,Normal,Tidak,45-59 Tahun,0
+52,Female,14,2921,30.8,7.8,7.0,7,No,2,4.2,Tinggi (>5x),Tidak,45-59 Tahun,0
+37,Male,4,3222,29.3,2.2,6.6,1,No,0,2.1,Normal,Ya,30-44 Tahun,0
+38,Male,9,2559,20.4,3.8,7.7,8,No,1,7.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+35,Male,6,2927,33.1,0.3,7.1,3,No,5,2.0,Tinggi (>5x),Ya,30-44 Tahun,0
+58,Female,9,3325,26.9,9.7,6.4,6,Yes,11,1.2,Tinggi (>5x),Tidak,45-59 Tahun,1
+31,Male,7,2073,22.6,6.9,4.7,7,No,9,5.3,Tinggi (>5x),Tidak,30-44 Tahun,0
+32,Female,6,3046,25.3,9.3,5.2,1,Yes,1,0.9,Tinggi (>5x),Ya,30-44 Tahun,1
+48,Male,4,2145,18.5,2.6,6.2,6,Yes,5,1.0,Normal,Tidak,45-59 Tahun,1
+20,Male,12,3486,31.2,7.2,6.5,6,No,10,5.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+31,Female,4,3379,18.0,3.2,5.3,4,No,0,8.9,Normal,Ya,30-44 Tahun,0
+40,Female,9,2446,25.3,8.5,4.0,1,Yes,4,0.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+28,Female,1,2827,27.2,9.2,6.5,9,No,9,5.1,Rendah (<2x),Tidak,20-29 Tahun,0
+29,Female,12,1805,18.8,8.5,5.4,4,Yes,10,9.1,Tinggi (>5x),Tidak,20-29 Tahun,1
+28,Female,4,2735,34.5,7.3,7.6,7,No,8,8.8,Normal,Tidak,20-29 Tahun,0
+50,Female,4,3385,21.6,2.9,4.1,7,No,7,0.8,Normal,Tidak,45-59 Tahun,0
+33,Male,1,2235,22.9,3.0,6.9,2,No,2,7.9,Rendah (<2x),Tidak,30-44 Tahun,0
+26,Male,4,2850,23.4,9.7,8.7,1,Yes,2,1.1,Normal,Ya,20-29 Tahun,1
+55,Female,12,1845,22.3,0.0,4.9,8,Yes,0,7.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+45,Female,2,3220,34.2,6.0,7.1,8,No,11,7.9,Normal,Tidak,45-59 Tahun,0
+25,Male,0,2943,21.7,10.0,6.7,3,Yes,11,6.2,Rendah (<2x),Ya,20-29 Tahun,1
+45,Male,11,2467,29.3,3.2,5.9,2,No,10,9.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+53,Female,10,2206,30.6,3.6,6.7,7,No,0,1.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+43,Male,14,2155,32.2,0.8,8.6,8,No,7,9.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+25,Male,4,1737,24.9,4.2,5.0,1,No,0,0.9,Normal,Tidak,20-29 Tahun,0
+44,Female,3,2232,23.4,2.6,4.1,9,No,4,3.1,Normal,Tidak,30-44 Tahun,0
+45,Male,6,2137,23.7,3.2,8.3,4,Yes,8,0.9,Tinggi (>5x),Tidak,45-59 Tahun,1
+53,Female,4,2429,30.0,8.2,6.8,4,Yes,6,3.0,Normal,Tidak,45-59 Tahun,1
+58,Male,9,2299,31.9,9.3,8.4,3,Yes,3,2.2,Tinggi (>5x),Tidak,45-59 Tahun,1
+52,Female,12,3173,21.1,2.1,7.0,6,No,10,1.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+44,Male,3,3271,24.6,3.8,8.3,1,No,8,8.8,Normal,Ya,30-44 Tahun,0
+26,Male,3,3467,31.9,0.6,7.7,2,Yes,1,1.2,Normal,Ya,20-29 Tahun,1
+37,Male,1,2195,30.9,1.7,6.8,2,Yes,9,1.0,Rendah (<2x),Tidak,30-44 Tahun,1
+29,Male,7,1888,25.2,6.1,4.9,7,Yes,10,0.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+45,Female,2,1991,27.9,1.5,5.3,1,No,6,4.1,Normal,Tidak,45-59 Tahun,0
+46,Male,8,2520,29.3,9.7,5.0,7,No,5,2.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+30,Female,12,1872,19.7,4.7,5.2,5,No,3,2.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+52,Female,3,1751,27.5,4.8,5.4,8,No,7,9.4,Normal,Tidak,45-59 Tahun,0
+24,Female,12,2198,29.8,2.5,6.9,4,Yes,11,1.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+35,Male,5,3415,20.9,4.5,6.9,7,Yes,10,3.9,Normal,Tidak,30-44 Tahun,1
+23,Female,9,2235,31.3,6.4,6.3,6,Yes,6,1.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+42,Male,4,1685,28.2,7.6,7.1,5,No,6,1.9,Normal,Tidak,30-44 Tahun,0
+19,Male,9,3213,34.1,7.5,4.4,4,No,10,4.9,Tinggi (>5x),Ya,<20 Tahun,0
+27,Other,12,2545,18.5,5.9,4.5,7,No,9,1.2,Tinggi (>5x),Tidak,20-29 Tahun,0
+47,Male,0,2494,22.5,9.1,5.0,5,No,8,7.0,Rendah (<2x),Tidak,45-59 Tahun,0
+22,Female,8,3058,28.0,8.1,6.7,5,Yes,4,4.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+50,Female,0,2877,23.0,7.7,6.6,1,Yes,5,6.1,Rendah (<2x),Ya,45-59 Tahun,1
+18,Female,7,3338,29.9,0.7,5.4,2,No,0,8.0,Tinggi (>5x),Ya,<20 Tahun,0
+34,Female,8,1948,30.6,0.3,5.9,5,Yes,5,6.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+49,Male,8,2605,19.6,2.3,8.1,3,No,1,1.9,Tinggi (>5x),Ya,45-59 Tahun,0
+27,Male,0,1843,27.2,6.5,4.1,2,No,5,1.0,Rendah (<2x),Tidak,20-29 Tahun,0
+38,Female,1,2931,26.9,4.3,7.2,4,No,8,7.7,Rendah (<2x),Ya,30-44 Tahun,0
+42,Male,12,2737,34.0,8.6,8.0,4,Yes,8,9.0,Tinggi (>5x),Ya,30-44 Tahun,1
+40,Male,0,2655,32.3,9.0,8.8,4,No,9,5.6,Rendah (<2x),Ya,30-44 Tahun,0
+44,Male,9,2398,29.8,8.9,4.0,3,No,7,0.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+30,Male,1,3270,30.6,3.2,4.9,7,No,2,8.9,Rendah (<2x),Tidak,30-44 Tahun,0
+51,Male,9,2961,25.8,7.2,8.4,9,No,7,2.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+51,Female,11,2152,33.6,2.5,6.3,5,No,5,6.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+58,Female,7,3093,29.8,1.8,6.7,4,No,5,9.0,Tinggi (>5x),Ya,45-59 Tahun,0
+52,Female,4,2391,30.8,1.7,7.3,5,Yes,5,2.9,Normal,Tidak,45-59 Tahun,1
+37,Male,10,2581,22.5,4.4,8.8,5,Yes,9,5.2,Tinggi (>5x),Tidak,30-44 Tahun,1
+23,Male,6,2018,31.7,8.4,9.0,7,Yes,0,7.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+45,Female,1,2766,20.7,1.3,7.6,9,No,11,4.2,Rendah (<2x),Tidak,45-59 Tahun,0
+33,Female,7,2545,26.5,7.1,5.5,7,No,3,4.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+23,Male,10,2549,23.8,5.4,8.4,5,No,9,6.8,Tinggi (>5x),Tidak,20-29 Tahun,0
+48,Female,5,2549,34.7,2.9,4.2,6,No,11,9.0,Normal,Tidak,45-59 Tahun,0
+22,Male,7,2302,32.5,4.9,5.1,3,No,5,4.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+56,Female,0,2536,30.1,3.1,8.6,5,No,10,4.0,Rendah (<2x),Tidak,45-59 Tahun,0
+20,Female,14,2063,30.3,5.8,5.2,8,No,11,6.2,Tinggi (>5x),Tidak,20-29 Tahun,0
+40,Female,0,1896,26.5,4.7,5.2,1,No,9,6.1,Rendah (<2x),Tidak,30-44 Tahun,0
+53,Female,11,1846,34.2,1.6,4.7,1,No,1,6.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+53,Female,6,1942,26.4,1.4,8.2,7,No,6,1.4,Tinggi (>5x),Tidak,45-59 Tahun,0
+27,Male,7,2259,24.7,5.3,6.6,5,No,6,2.8,Tinggi (>5x),Tidak,20-29 Tahun,0
+27,Female,12,3011,20.6,9.2,7.4,5,Yes,6,9.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+36,Male,7,2428,31.8,3.7,5.1,1,No,3,5.7,Tinggi (>5x),Tidak,30-44 Tahun,0
+34,Female,4,1668,30.7,7.4,7.7,9,Yes,3,5.9,Normal,Tidak,30-44 Tahun,1
+38,Female,11,3255,24.5,6.5,7.7,1,No,0,4.8,Tinggi (>5x),Ya,30-44 Tahun,0
+32,Female,0,2889,26.5,9.1,5.7,5,Yes,1,3.2,Rendah (<2x),Tidak,30-44 Tahun,1
+26,Male,6,2412,32.5,8.3,6.2,9,No,8,5.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+18,Female,4,3340,18.2,5.6,5.0,5,No,9,0.9,Normal,Tidak,<20 Tahun,0
+31,Female,7,2596,30.1,6.4,8.9,8,Yes,7,3.2,Tinggi (>5x),Tidak,30-44 Tahun,1
+40,Female,12,1945,34.4,9.1,7.2,6,No,7,4.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+18,Male,7,1840,25.7,4.1,8.7,3,Yes,8,5.2,Tinggi (>5x),Tidak,<20 Tahun,1
+57,Male,8,1677,21.5,3.6,5.5,4,No,6,8.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+48,Male,6,3336,30.0,0.2,7.8,2,Yes,8,5.0,Tinggi (>5x),Ya,45-59 Tahun,1
+51,Male,10,1693,32.0,8.3,7.9,1,Yes,9,3.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+44,Female,0,2563,27.3,8.1,7.5,8,Yes,11,0.9,Rendah (<2x),Tidak,30-44 Tahun,1
+47,Male,12,3418,34.8,1.0,8.8,1,No,1,6.0,Tinggi (>5x),Ya,45-59 Tahun,0
+56,Male,7,3487,26.8,4.5,4.7,4,No,2,8.0,Tinggi (>5x),Ya,45-59 Tahun,0
+44,Male,2,3276,30.7,1.2,7.3,6,Yes,10,1.2,Normal,Tidak,30-44 Tahun,1
+51,Female,7,3301,32.6,9.6,7.6,9,No,5,4.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+19,Female,0,2549,20.5,1.8,6.8,1,Yes,2,5.1,Rendah (<2x),Ya,<20 Tahun,1
+29,Female,4,3321,31.5,0.9,5.1,7,No,7,1.7,Normal,Tidak,20-29 Tahun,0
+17,Female,3,2728,27.0,6.0,6.4,5,Yes,10,1.1,Normal,Tidak,<20 Tahun,1
+22,Female,4,2847,25.1,7.5,5.5,8,No,3,8.1,Normal,Tidak,20-29 Tahun,0
+47,Male,7,2300,20.3,0.1,6.1,7,No,11,5.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+46,Other,9,2580,32.6,6.5,7.2,4,No,9,5.3,Tinggi (>5x),Ya,45-59 Tahun,0
+34,Other,14,2119,20.8,5.5,7.8,4,No,5,8.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Female,13,2657,23.5,1.1,5.2,5,No,8,2.0,Tinggi (>5x),Tidak,30-44 Tahun,0
+32,Male,3,2492,22.7,1.7,6.1,6,No,1,8.1,Normal,Tidak,30-44 Tahun,0
+53,Female,10,2070,32.7,5.8,5.2,9,No,1,9.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+38,Male,3,3283,28.9,3.0,4.9,5,Yes,6,1.0,Normal,Tidak,30-44 Tahun,1
+31,Male,14,1838,31.9,9.5,7.9,8,No,1,7.2,Tinggi (>5x),Tidak,30-44 Tahun,0
+19,Male,2,2640,21.9,8.1,8.5,5,No,1,8.4,Normal,Tidak,<20 Tahun,0
+28,Male,6,2397,28.5,9.9,5.9,2,Yes,3,3.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+56,Female,2,3191,28.0,2.5,7.8,6,Yes,8,4.1,Normal,Tidak,45-59 Tahun,1
+54,Female,11,2102,32.4,9.7,8.5,9,Yes,7,2.8,Tinggi (>5x),Tidak,45-59 Tahun,1
+51,Female,2,3218,33.3,4.1,8.2,3,No,1,7.1,Normal,Ya,45-59 Tahun,0
+55,Male,10,3087,18.0,3.6,4.9,1,Yes,7,5.0,Tinggi (>5x),Ya,45-59 Tahun,1
+51,Male,9,3391,29.7,0.7,8.8,1,Yes,3,5.0,Tinggi (>5x),Ya,45-59 Tahun,1
+35,Male,4,2324,18.2,0.6,5.9,3,Yes,1,5.0,Normal,Tidak,30-44 Tahun,1
+47,Other,4,2549,27.5,7.1,5.7,5,No,10,7.9,Normal,Tidak,45-59 Tahun,0
+44,Female,5,2890,23.3,2.1,6.4,9,Yes,6,1.8,Normal,Tidak,30-44 Tahun,1
+51,Female,7,3515,23.9,4.9,4.6,8,Yes,5,6.7,Tinggi (>5x),Tidak,45-59 Tahun,1
+55,Male,9,3303,28.8,2.6,5.1,3,Yes,9,1.9,Tinggi (>5x),Ya,45-59 Tahun,1
+49,Female,5,2658,24.0,5.7,5.7,9,No,4,2.1,Normal,Tidak,45-59 Tahun,0
+41,Female,14,2793,30.4,3.7,8.1,6,No,10,1.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+32,Female,11,3040,25.5,4.9,8.4,7,No,0,0.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+46,Female,-1,2937,18.9,8.1,5.6,4,Yes,1,1.0,Rendah (<2x),Ya,45-59 Tahun,1
+57,Male,14,2617,31.2,5.0,8.2,4,No,7,7.1,Tinggi (>5x),Ya,45-59 Tahun,0
+34,Male,7,2585,22.4,3.4,8.3,2,No,0,5.0,Tinggi (>5x),Ya,30-44 Tahun,0
+22,Female,7,2118,24.9,3.7,7.8,5,Yes,2,2.9,Tinggi (>5x),Tidak,20-29 Tahun,1
+46,Female,8,2305,29.5,8.2,4.7,8,Yes,1,1.0,Tinggi (>5x),Tidak,45-59 Tahun,1
+21,Male,8,2091,23.9,3.2,7.6,7,No,4,6.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+27,Female,1,2734,19.0,2.1,8.7,7,No,3,0.8,Rendah (<2x),Tidak,20-29 Tahun,0
+34,Female,14,2581,24.2,0.8,7.4,6,No,6,9.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+27,Female,1,2930,33.9,4.7,5.7,3,No,4,2.0,Rendah (<2x),Ya,20-29 Tahun,0
+33,Male,2,1978,28.5,4.6,6.5,5,No,7,0.8,Normal,Tidak,30-44 Tahun,0
+38,Female,0,3084,29.6,8.2,7.3,1,Yes,3,7.0,Rendah (<2x),Ya,30-44 Tahun,1
+41,Female,3,3051,28.7,2.2,6.6,7,No,11,6.0,Normal,Tidak,30-44 Tahun,0
+22,Male,13,1933,21.4,3.9,4.5,9,No,5,6.0,Tinggi (>5x),Tidak,20-29 Tahun,0
+52,Female,3,2008,25.0,8.2,6.6,1,Yes,3,4.7,Normal,Tidak,45-59 Tahun,1
+23,Other,13,3203,30.6,8.2,8.0,2,No,1,4.0,Tinggi (>5x),Ya,20-29 Tahun,0
+19,Male,8,1731,20.2,3.8,8.3,3,Yes,0,4.2,Tinggi (>5x),Tidak,<20 Tahun,1
+30,Female,8,2141,23.0,4.4,4.7,3,Yes,0,2.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+28,Female,8,2129,22.8,3.0,8.9,8,No,7,8.2,Tinggi (>5x),Tidak,20-29 Tahun,0
+33,Female,6,2246,35.2,1.1,7.2,6,No,4,8.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+48,Male,13,1659,19.0,9.1,7.8,4,Yes,10,1.1,Tinggi (>5x),Tidak,45-59 Tahun,1
+28,Female,14,2403,26.8,6.8,8.1,9,No,7,7.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+32,Male,1,2215,21.0,5.3,8.8,1,No,11,3.9,Rendah (<2x),Tidak,30-44 Tahun,0
+25,Female,9,1993,34.6,0.4,5.6,2,No,6,6.8,Tinggi (>5x),Tidak,20-29 Tahun,0
+21,Male,4,1876,19.7,4.8,8.2,4,No,7,1.3,Normal,Tidak,20-29 Tahun,0
+57,Male,4,2160,26.5,4.5,4.7,3,No,7,5.0,Normal,Tidak,45-59 Tahun,0
+21,Other,11,3425,30.9,1.6,7.5,1,Yes,5,3.2,Tinggi (>5x),Ya,20-29 Tahun,1
+42,Male,10,3207,30.2,6.8,7.7,5,No,9,5.1,Tinggi (>5x),Tidak,30-44 Tahun,0
+21,Female,7,3385,25.1,9.5,7.4,7,Yes,1,4.0,Tinggi (>5x),Tidak,20-29 Tahun,1
+49,Male,1,2088,23.9,5.8,5.3,2,Yes,5,2.0,Rendah (<2x),Tidak,45-59 Tahun,1
+19,Female,5,3272,24.5,6.9,8.4,5,No,0,3.9,Normal,Tidak,<20 Tahun,0
+44,Male,12,1784,22.1,0.8,4.9,6,No,0,2.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+50,Male,14,3422,26.2,4.9,7.6,1,No,2,8.0,Tinggi (>5x),Ya,45-59 Tahun,0
+36,Male,11,3048,22.7,5.8,6.3,7,Yes,2,5.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+38,Male,1,1932,22.9,9.3,8.2,4,No,10,4.1,Rendah (<2x),Tidak,30-44 Tahun,0
+22,Male,10,2105,28.6,6.6,5.8,8,No,4,4.9,Tinggi (>5x),Tidak,20-29 Tahun,0
+34,Female,9,2386,34.9,0.9,4.8,4,No,0,3.8,Tinggi (>5x),Tidak,30-44 Tahun,0
+40,Male,14,2966,28.3,3.6,8.4,6,Yes,9,3.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+59,Female,0,1665,19.4,5.5,6.7,9,No,5,5.1,Rendah (<2x),Tidak,45-59 Tahun,0
+39,Male,7,2229,19.1,3.9,4.9,5,No,6,3.9,Tinggi (>5x),Tidak,30-44 Tahun,0
+38,Male,1,2446,34.1,8.4,7.5,5,No,9,0.9,Rendah (<2x),Tidak,30-44 Tahun,0
+24,Female,6,3113,23.0,8.1,6.6,8,No,11,3.1,Tinggi (>5x),Tidak,20-29 Tahun,0
+18,Female,8,1749,19.5,5.9,6.9,9,No,10,7.9,Tinggi (>5x),Tidak,<20 Tahun,0
+22,Male,8,2803,28.4,3.8,6.2,4,Yes,2,6.9,Tinggi (>5x),Ya,20-29 Tahun,1
+58,Male,7,1920,28.7,2.7,8.0,3,No,3,2.0,Tinggi (>5x),Tidak,45-59 Tahun,0
+30,Male,10,2552,29.1,1.2,8.2,8,No,9,0.8,Tinggi (>5x),Tidak,30-44 Tahun,0
+42,Female,13,2978,22.6,3.7,7.5,5,Yes,10,3.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+52,Female,11,3376,18.2,3.9,4.6,2,No,9,5.0,Tinggi (>5x),Ya,45-59 Tahun,0
+31,Male,9,2549,34.5,6.9,8.2,9,Yes,11,0.9,Tinggi (>5x),Tidak,30-44 Tahun,1
+43,Female,8,2742,22.1,6.5,7.4,3,No,9,3.2,Tinggi (>5x),Ya,30-44 Tahun,0
+43,Female,1,2898,29.4,0.6,7.5,2,No,9,2.9,Rendah (<2x),Ya,30-44 Tahun,0
+26,Female,5,1820,30.2,4.1,6.6,1,Yes,9,4.7,Normal,Tidak,20-29 Tahun,1
+44,Female,3,3278,28.7,1.7,8.5,8,No,2,2.9,Normal,Tidak,30-44 Tahun,0
+39,Male,13,3289,23.0,1.4,7.6,3,Yes,0,8.8,Tinggi (>5x),Ya,30-44 Tahun,1
+47,Male,7,2086,23.1,8.2,4.5,7,No,7,1.1,Tinggi (>5x),Tidak,45-59 Tahun,0
+33,Male,4,2426,28.1,0.1,6.1,1,Yes,9,4.0,Normal,Tidak,30-44 Tahun,1
+45,Male,11,1892,32.8,4.4,8.5,1,No,9,3.9,Tinggi (>5x),Tidak,45-59 Tahun,0
+54,Female,2,2298,34.2,1.6,4.2,9,Yes,1,0.9,Normal,Tidak,45-59 Tahun,1
+18,Female,13,1855,19.8,8.5,8.9,8,No,0,1.8,Tinggi (>5x),Tidak,<20 Tahun,0
+25,Male,0,3298,20.4,5.7,7.4,3,No,7,0.8,Rendah (<2x),Ya,20-29 Tahun,0
+53,Male,7,3121,34.2,2.3,7.3,6,Yes,6,6.2,Tinggi (>5x),Tidak,45-59 Tahun,1
+32,Male,4,3014,30.5,5.0,5.3,3,No,6,3.1,Normal,Ya,30-44 Tahun,0
+39,Female,2,1936,32.7,7.2,5.2,4,No,3,6.9,Normal,Tidak,30-44 Tahun,0
+32,Male,9,3085,21.3,9.7,8.6,1,No,10,4.8,Tinggi (>5x),Ya,30-44 Tahun,0
+43,Female,13,2073,28.0,2.0,5.5,5,Yes,8,9.2,Tinggi (>5x),Tidak,30-44 Tahun,1
+46,Male,6,1693,29.9,8.8,7.9,1,No,5,6.8,Tinggi (>5x),Tidak,45-59 Tahun,0
+40,Male,6,3262,29.3,9.0,5.9,1,Yes,1,3.9,Tinggi (>5x),Ya,30-44 Tahun,1
+31,Female,7,2301,25.2,9.2,4.7,7,Yes,0,5.0,Tinggi (>5x),Tidak,30-44 Tahun,1
+41,Other,11,2517,18.1,6.5,4.1,6,No,0,4.7,Tinggi (>5x),Tidak,30-44 Tahun,0
+19,Male,8,3080,28.0,6.0,6.6,2,Yes,8,5.0,Tinggi (>5x),Ya,<20 Tahun,1
+43,Female,14,1764,22.3,4.0,8.8,2,Yes,3,8.9,Tinggi (>5x),Tidak,30-44 Tahun,1
