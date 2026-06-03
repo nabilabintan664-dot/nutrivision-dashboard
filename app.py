@@ -19,16 +19,11 @@ BLACK = "#0D0D0D"
 DARK_GREY = "#1E1E1E"
 WHITE = "#FFFFFF"
 LIGHT_GREY = "#D4D4D4"
-GREEN = "#2E8B57"
-RED = "#8B0000"
 
 # Custom CSS
 st.markdown(f"""
 <style>
-    .stApp, [data-testid="stSidebar"] {{
-        background-color: {BLACK};
-    }}
-    
+    .stApp, [data-testid="stSidebar"] {{ background-color: {BLACK}; }}
     .main-header {{
         background: linear-gradient(135deg, {ORANGE}, {DARK_ORANGE});
         padding: 1.2rem;
@@ -36,18 +31,8 @@ st.markdown(f"""
         margin-bottom: 1.5rem;
         text-align: center;
     }}
-    .main-header h1 {{
-        color: {WHITE};
-        margin: 0;
-        font-size: 2rem;
-    }}
-    .main-header p {{
-        color: {WHITE};
-        margin: 0.3rem 0 0 0;
-        opacity: 0.9;
-        font-size: 0.9rem;
-    }}
-    
+    .main-header h1 {{ color: {WHITE}; margin: 0; font-size: 2rem; }}
+    .main-header p {{ color: {WHITE}; margin: 0.3rem 0 0 0; opacity: 0.9; font-size: 0.9rem; }}
     .section-header {{
         color: {ORANGE};
         border-bottom: 2px solid {ORANGE};
@@ -57,7 +42,6 @@ st.markdown(f"""
         font-size: 1.3rem;
         font-weight: bold;
     }}
-    
     .metric-card {{
         background-color: {DARK_GREY};
         padding: 0.8rem;
@@ -65,18 +49,8 @@ st.markdown(f"""
         border-left: 4px solid {ORANGE};
         margin-bottom: 0.5rem;
     }}
-    .metric-card h4 {{
-        color: {LIGHT_ORANGE};
-        margin: 0;
-        font-size: 0.8rem;
-    }}
-    .metric-card .value {{
-        color: {WHITE};
-        margin: 0.3rem 0 0 0;
-        font-size: 1.6rem;
-        font-weight: bold;
-    }}
-    
+    .metric-card h4 {{ color: {LIGHT_ORANGE}; margin: 0; font-size: 0.8rem; }}
+    .metric-card .value {{ color: {WHITE}; margin: 0.3rem 0 0 0; font-size: 1.6rem; font-weight: bold; }}
     .insight-box {{
         background-color: {DARK_GREY};
         padding: 1rem;
@@ -84,59 +58,19 @@ st.markdown(f"""
         margin-top: 1rem;
         border-left: 4px solid {ORANGE};
     }}
-    .insight-title {{
-        color: {ORANGE};
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-    }}
-    .insight-text {{
-        color: {LIGHT_GREY};
-        margin-bottom: 0.5rem;
-    }}
-    .conclusion-text {{
-        color: {WHITE};
-        font-weight: bold;
-        margin-top: 0.5rem;
-    }}
-    
+    .insight-title {{ color: {ORANGE}; font-weight: bold; margin-bottom: 0.5rem; }}
+    .insight-text {{ color: {LIGHT_GREY}; margin-bottom: 0.5rem; }}
+    .conclusion-text {{ color: {WHITE}; font-weight: bold; margin-top: 0.5rem; }}
     [data-testid="stSidebar"] .stSelectbox label,
-    [data-testid="stSidebar"] .stSlider label {{
-        color: {ORANGE} !important;
-        font-weight: 500;
-    }}
-    
-    [data-testid="stSidebar"] h2 {{
-        color: {ORANGE} !important;
-    }}
-    
+    [data-testid="stSidebar"] .stSlider label {{ color: {ORANGE} !important; font-weight: 500; }}
+    [data-testid="stSidebar"] h2 {{ color: {ORANGE} !important; }}
     [data-testid="stSidebar"] .stMarkdown p,
-    [data-testid="stSidebar"] .stCaption {{
-        color: {LIGHT_GREY} !important;
-    }}
-    
-    .stMarkdown p, .stMarkdown li {{
-        color: {LIGHT_GREY};
-    }}
-    
-    .stButton > button {{
-        background-color: {ORANGE};
-        color: {WHITE};
-        border: none;
-        border-radius: 6px;
-    }}
-    .stButton > button:hover {{
-        background-color: {DARK_ORANGE};
-        color: {WHITE};
-    }}
-    
-    .dataframe {{
-        background-color: {DARK_GREY};
-        color: {LIGHT_GREY};
-    }}
-    .dataframe th {{
-        background-color: {ORANGE};
-        color: {WHITE};
-    }}
+    [data-testid="stSidebar"] .stCaption {{ color: {LIGHT_GREY} !important; }}
+    .stMarkdown p, .stMarkdown li {{ color: {LIGHT_GREY}; }}
+    .stButton > button {{ background-color: {ORANGE}; color: {WHITE}; border: none; border-radius: 6px; }}
+    .stButton > button:hover {{ background-color: {DARK_ORANGE}; color: {WHITE}; }}
+    .dataframe {{ background-color: {DARK_GREY}; color: {LIGHT_GREY}; }}
+    .dataframe th {{ background-color: {ORANGE}; color: {WHITE}; }}
 </style>
 """, unsafe_allow_html=True)
 
@@ -158,7 +92,7 @@ st.markdown(f"""
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
-    st.markdown("##  Filter Data")
+    st.markdown("## 🔧 Filter Data")
     st.markdown("---")
     
     gender_options = ['All'] + sorted(df['Gender'].dropna().unique().tolist())
@@ -239,55 +173,69 @@ st.markdown("---")
 st.markdown('<div class="section-header"> Q1: Dampak Konsumsi Fast Food terhadap Kesehatan</div>', unsafe_allow_html=True)
 st.markdown("*Berapakah rata-rata penurunan skor kesehatan dan persentase peningkatan risiko gangguan pencernaan pada kelompok fast food tinggi (>5x/minggu) dibandingkan rendah (<2x/minggu)?*")
 
-q1_data = df_filtered.groupby('Fast_Food_Group').agg(
-    Rata_Skor_Kesehatan=('Overall_Health_Score', 'mean'),
-    Persen_Gangguan_Pencernaan=('Digestive_Numeric', lambda x: x.mean() * 100)
-).loc[['Rendah (<2x)', 'Tinggi (>5x)']]
+# Cek nilai unik di Fast_Food_Group
+ff_groups = df_filtered['Fast_Food_Group'].unique()
+st.caption(f"Kelompok Fast Food yang tersedia: {ff_groups}")
 
-col1, col2 = st.columns(2)
+# Filter untuk kelompok Rendah dan Tinggi
+low_group = [g for g in ff_groups if 'rendah' in g.lower() or 'low' in g.lower() or '<2' in g]
+high_group = [g for g in ff_groups if 'tinggi' in g.lower() or 'high' in g.lower() or '>5' in g]
 
-with col1:
-    fig1, ax1 = plt.subplots(figsize=(7, 5))
-    bars1 = ax1.bar(q1_data.index, q1_data['Rata_Skor_Kesehatan'], color=[DARK_ORANGE, ORANGE], edgecolor=WHITE)
-    ax1.set_title('Perbandingan Rata-rata Skor Kesehatan', color=WHITE, fontsize=14)
-    ax1.set_xlabel('Kelompok Konsumsi Fast Food', color=LIGHT_GREY)
-    ax1.set_ylabel('Skor Kesehatan (0-10)', color=LIGHT_GREY)
-    ax1.set_ylim(0, 10)
-    ax1.tick_params(colors=LIGHT_GREY)
-    ax1.set_facecolor(BLACK)
-    fig1.patch.set_facecolor(BLACK)
-    for bar, val in zip(bars1, q1_data['Rata_Skor_Kesehatan']):
-        ax1.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1, 
-                f'{val:.2f}', ha='center', color=WHITE, fontweight='bold', fontsize=12)
-    st.pyplot(fig1)
-
-with col2:
-    fig2, ax2 = plt.subplots(figsize=(7, 5))
-    bars2 = ax2.bar(q1_data.index, q1_data['Persen_Gangguan_Pencernaan'], color=[DARK_ORANGE, ORANGE], edgecolor=WHITE)
-    ax2.set_title('Persentase Risiko Gangguan Pencernaan', color=WHITE, fontsize=14)
-    ax2.set_xlabel('Kelompok Konsumsi Fast Food', color=LIGHT_GREY)
-    ax2.set_ylabel('Persentase Responden (%)', color=LIGHT_GREY)
-    ax2.set_ylim(0, 100)
-    ax2.tick_params(colors=LIGHT_GREY)
-    ax2.set_facecolor(BLACK)
-    fig2.patch.set_facecolor(BLACK)
-    for bar, val in zip(bars2, q1_data['Persen_Gangguan_Pencernaan']):
-        ax2.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, 
-                f'{val:.2f}%', ha='center', color=WHITE, fontweight='bold', fontsize=12)
-    st.pyplot(fig2)
-
-# Insight & Kesimpulan Q1
-st.markdown(f"""
-<div class="insight-box">
-    <div class="insight-title"> Insight Q1:</div>
-    <div class="insight-text">
-        • Skor kesehatan kelompok fast food tinggi ({q1_data.loc['Tinggi (>5x)', 'Rata_Skor_Kesehatan']:.2f}) lebih rendah dari kelompok rendah ({q1_data.loc['Rendah (<2x)', 'Rata_Skor_Kesehatan']:.2f})<br>
-        • Gangguan pencernaan kelompok fast food tinggi ({q1_data.loc['Tinggi (>5x)', 'Persen_Gangguan_Pencernaan']:.2f}%) justru lebih rendah dari kelompok rendah ({q1_data.loc['Rendah (<2x)', 'Persen_Gangguan_Pencernaan']:.2f}%)<br>
-        • Perbedaan skor kesehatan hanya 0.05 poin, sangat kecil
+if low_group and high_group:
+    low_key = low_group[0]
+    high_key = high_group[0]
+    
+    q1_data = df_filtered.groupby('Fast_Food_Group').agg(
+        Rata_Skor_Kesehatan=('Overall_Health_Score', 'mean'),
+        Persen_Gangguan_Pencernaan=('Digestive_Numeric', lambda x: x.mean() * 100)
+    ).loc[[low_key, high_key]]
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        fig1, ax1 = plt.subplots(figsize=(7, 5))
+        bars1 = ax1.bar(q1_data.index, q1_data['Rata_Skor_Kesehatan'], color=[DARK_ORANGE, ORANGE], edgecolor=WHITE)
+        ax1.set_title('Perbandingan Rata-rata Skor Kesehatan', color=WHITE, fontsize=14)
+        ax1.set_xlabel('Kelompok Konsumsi Fast Food', color=LIGHT_GREY)
+        ax1.set_ylabel('Skor Kesehatan (0-10)', color=LIGHT_GREY)
+        ax1.set_ylim(0, 10)
+        ax1.tick_params(colors=LIGHT_GREY)
+        ax1.set_facecolor(BLACK)
+        fig1.patch.set_facecolor(BLACK)
+        for bar, val in zip(bars1, q1_data['Rata_Skor_Kesehatan']):
+            ax1.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1, 
+                    f'{val:.2f}', ha='center', color=WHITE, fontweight='bold', fontsize=12)
+        st.pyplot(fig1)
+    
+    with col2:
+        fig2, ax2 = plt.subplots(figsize=(7, 5))
+        bars2 = ax2.bar(q1_data.index, q1_data['Persen_Gangguan_Pencernaan'], color=[DARK_ORANGE, ORANGE], edgecolor=WHITE)
+        ax2.set_title('Persentase Risiko Gangguan Pencernaan', color=WHITE, fontsize=14)
+        ax2.set_xlabel('Kelompok Konsumsi Fast Food', color=LIGHT_GREY)
+        ax2.set_ylabel('Persentase Responden (%)', color=LIGHT_GREY)
+        ax2.set_ylim(0, 100)
+        ax2.tick_params(colors=LIGHT_GREY)
+        ax2.set_facecolor(BLACK)
+        fig2.patch.set_facecolor(BLACK)
+        for bar, val in zip(bars2, q1_data['Persen_Gangguan_Pencernaan']):
+            ax2.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, 
+                    f'{val:.2f}%', ha='center', color=WHITE, fontweight='bold', fontsize=12)
+        st.pyplot(fig2)
+    
+    # Insight & Kesimpulan Q1
+    st.markdown(f"""
+    <div class="insight-box">
+        <div class="insight-title"> Insight Q1:</div>
+        <div class="insight-text">
+            • Skor kesehatan kelompok fast food tinggi ({q1_data.loc[high_key, 'Rata_Skor_Kesehatan']:.2f}) vs rendah ({q1_data.loc[low_key, 'Rata_Skor_Kesehatan']:.2f})<br>
+            • Gangguan pencernaan kelompok fast food tinggi ({q1_data.loc[high_key, 'Persen_Gangguan_Pencernaan']:.2f}%) vs rendah ({q1_data.loc[low_key, 'Persen_Gangguan_Pencernaan']:.2f}%)<br>
+            • Perbedaan skor kesehatan sangat kecil
+        </div>
+        <div class="conclusion-text"> Kesimpulan: Frekuensi konsumsi fast food dalam dataset ini tidak langsung mempengaruhi gangguan pencernaan maupun penurunan skor kesehatan harian. Ada faktor gaya hidup lain yang lebih berpengaruh.</div>
     </div>
-    <div class="conclusion-text"> Kesimpulan: Frekuensi konsumsi fast food dalam dataset ini tidak langsung mempengaruhi gangguan pencernaan maupun penurunan skor kesehatan harian. Ada faktor gaya hidup lain yang lebih berpengaruh.</div>
-</div>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+else:
+    st.warning("Data untuk kelompok fast food rendah (<2x) atau tinggi (>5x) tidak tersedia.")
 
 st.markdown("---")
 
@@ -297,7 +245,7 @@ st.markdown("*Berapa proporsi responden dengan asupan kalori >2500 namun energi 
 
 total_responden_q2 = len(df_filtered)
 jumlah_berisiko_q2 = len(df_filtered[df_filtered['High_Cal_Low_Energy'] == 'Ya'])
-persentase_berisiko_q2 = (jumlah_berisiko_q2 / total_responden_q2) * 100
+persentase_berisiko_q2 = (jumlah_berisiko_q2 / total_responden_q2) * 100 if total_responden_q2 > 0 else 0
 
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -383,16 +331,15 @@ ax4.set_facecolor(BLACK)
 fig4.patch.set_facecolor(BLACK)
 
 for bar, val in zip(bars1, q3_data['Rata_Fast_Food']):
-    ax4.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1, f'{val:.1f}', ha='center', color=WHITE, fontsize=9)
+    if not pd.isna(val):
+        ax4.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1, f'{val:.1f}', ha='center', color=WHITE, fontsize=9)
 for bar, val in zip(bars2, q3_data['Rata_Kunjungan_Dokter']):
-    ax4.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1, f'{val:.1f}', ha='center', color=WHITE, fontsize=9)
+    if not pd.isna(val):
+        ax4.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1, f'{val:.1f}', ha='center', color=WHITE, fontsize=9)
 
 st.pyplot(fig4)
 
 # Insight & Kesimpulan Q3
-fast_food_tertinggi = q3_data['Rata_Fast_Food'].idxmax()
-kunjungan_tertinggi = q3_data['Rata_Kunjungan_Dokter'].idxmax()
-
 st.markdown(f"""
 <div class="insight-box">
     <div class="insight-title"> Insight Q3:</div>
@@ -426,8 +373,12 @@ fig5.patch.set_facecolor(BLACK)
 st.pyplot(fig5)
 
 # Insight & Kesimpulan Q4
-korelasi_ff_bmi = korelasi_matrix.loc['Fast_Food_Meals_Per_Week', 'BMI']
-korelasi_olahraga_bmi = korelasi_matrix.loc['Physical_Activity_Hours_Per_Week', 'BMI']
+if not korelasi_matrix.empty:
+    korelasi_ff_bmi = korelasi_matrix.loc['Fast_Food_Meals_Per_Week', 'BMI']
+    korelasi_olahraga_bmi = korelasi_matrix.loc['Physical_Activity_Hours_Per_Week', 'BMI']
+else:
+    korelasi_ff_bmi = 0
+    korelasi_olahraga_bmi = 0
 
 st.markdown(f"""
 <div class="insight-box">
@@ -450,10 +401,10 @@ st.markdown(f"""
 <div style='background: linear-gradient(135deg, {DARK_ORANGE}, {ORANGE}); padding: 1.5rem; border-radius: 15px; margin-top: 1rem;'>
     <h3 style='color: {WHITE};'> Ringkasan 4 Pertanyaan Bisnis:</h3>
     <ul style='color: {WHITE};'>
-        <li><b>Q1:</b> Fast food tinggi vs rendah: perbedaan skor kesehatan hanya 0.05 poin. Gangguan pencernaan malah lebih rendah di kelompok fast food tinggi. <b>Ada faktor lain yang lebih berpengaruh.</b></li>
-        <li><b>Q2:</b> 23.7% responden memiliki kalori tinggi tapi energi rendah → kemungkinan dari empty calories (fast food).</li>
-        <li><b>Q3:</b> Usia &lt;20 tahun: fast food tertinggi (7x/minggu), kunjungan dokter terendah. Usia 60+: fast food terendah (1x/minggu), kunjungan dokter tertinggi. <b>Usia lebih berpengaruh ke kunjungan dokter daripada fast food.</b></li>
-        <li><b>Q4:</b> Korelasi fast food vs BMI: -0.05, olahraga vs BMI: -0.04 → <b>tidak ada korelasi signifikan.</b></li>
+        <li><b>Q1:</b> Fast food tinggi vs rendah: perbedaan skor kesehatan sangat kecil. Gangguan pencernaan malah lebih rendah di kelompok fast food tinggi. <b>Ada faktor lain yang lebih berpengaruh.</b></li>
+        <li><b>Q2:</b> {persentase_berisiko_q2:.1f}% responden memiliki kalori tinggi tapi energi rendah → kemungkinan dari empty calories (fast food).</li>
+        <li><b>Q3:</b> Usia &lt;20 tahun: fast food tertinggi ({q3_data.loc['<20 Tahun', 'Rata_Fast_Food']:.1f}x/minggu), kunjungan dokter terendah. Usia 60+: fast food terendah ({q3_data.loc['60+ Tahun', 'Rata_Fast_Food']:.1f}x/minggu), kunjungan dokter tertinggi ({q3_data.loc['60+ Tahun', 'Rata_Kunjungan_Dokter']:.2f}x/tahun). <b>Usia lebih berpengaruh ke kunjungan dokter daripada fast food.</b></li>
+        <li><b>Q4:</b> Korelasi fast food vs BMI: {korelasi_ff_bmi:.2f}, olahraga vs BMI: {korelasi_olahraga_bmi:.2f} → <b>tidak ada korelasi signifikan.</b></li>
     </ul>
 </div>
 """, unsafe_allow_html=True)
@@ -473,7 +424,7 @@ st.markdown(f"""
 st.markdown("---")
 
 # ==================== DATA PREVIEW ====================
-st.markdown('<div class="section-header">📋 Data Preview</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header"> Data Preview</div>', unsafe_allow_html=True)
 st.dataframe(df_filtered.head(20), use_container_width=True)
 
 # ==================== FOOTER ====================
