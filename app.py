@@ -173,11 +173,7 @@ st.markdown("---")
 st.markdown('<div class="section-header"> Q1: Dampak Konsumsi Fast Food terhadap Kesehatan</div>', unsafe_allow_html=True)
 st.markdown("*Berapakah rata-rata penurunan skor kesehatan dan persentase peningkatan risiko gangguan pencernaan pada kelompok fast food tinggi (>5x/minggu) dibandingkan rendah (<2x/minggu)?*")
 
-# Cek nilai unik di Fast_Food_Group
 ff_groups = df_filtered['Fast_Food_Group'].unique()
-st.caption(f"Kelompok Fast Food yang tersedia: {ff_groups}")
-
-# Filter untuk kelompok Rendah dan Tinggi
 low_group = [g for g in ff_groups if 'rendah' in g.lower() or 'low' in g.lower() or '<2' in g]
 high_group = [g for g in ff_groups if 'tinggi' in g.lower() or 'high' in g.lower() or '>5' in g]
 
@@ -234,11 +230,7 @@ if low_group and high_group:
         <div class="conclusion-text"> Kesimpulan: Frekuensi konsumsi fast food dalam dataset ini tidak langsung mempengaruhi gangguan pencernaan maupun penurunan skor kesehatan harian. Ada faktor gaya hidup lain yang lebih berpengaruh.</div>
     </div>
     """, unsafe_allow_html=True)
-else:
-    st.warning("Data untuk kelompok fast food rendah (<2x) atau tinggi (>5x) tidak tersedia.")
-
-st.markdown("---")
-
+    
 # ==================== Q2 ====================
 st.markdown('<div class="section-header"> Q2: Kalori Tinggi vs Energi Rendah</div>', unsafe_allow_html=True)
 st.markdown("*Berapa proporsi responden dengan asupan kalori >2500 namun energi <5, dan bagaimana hubungannya dengan frekuensi fast food?*")
