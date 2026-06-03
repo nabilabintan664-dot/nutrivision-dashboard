@@ -19,6 +19,8 @@ BLACK = "#0D0D0D"
 DARK_GREY = "#1E1E1E"
 WHITE = "#FFFFFF"
 LIGHT_GREY = "#D4D4D4"
+GREEN = "#2E8B57"
+RED = "#8B0000"
 
 # Custom CSS
 st.markdown(f"""
@@ -75,6 +77,28 @@ st.markdown(f"""
         font-weight: bold;
     }}
     
+    .insight-box {{
+        background-color: {DARK_GREY};
+        padding: 1rem;
+        border-radius: 10px;
+        margin-top: 1rem;
+        border-left: 4px solid {ORANGE};
+    }}
+    .insight-title {{
+        color: {ORANGE};
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }}
+    .insight-text {{
+        color: {LIGHT_GREY};
+        margin-bottom: 0.5rem;
+    }}
+    .conclusion-text {{
+        color: {WHITE};
+        font-weight: bold;
+        margin-top: 0.5rem;
+    }}
+    
     [data-testid="stSidebar"] .stSelectbox label,
     [data-testid="stSidebar"] .stSlider label {{
         color: {ORANGE} !important;
@@ -124,50 +148,17 @@ def load_data():
 
 df = load_data()
 
-# ==================== DATA CLEANING ====================
-numeric_cols = df.select_dtypes(include=[np.number]).columns
-for col in numeric_cols:
-    df[col] = df[col].fillna(df[col].median())
-
-categorical_cols = df.select_dtypes(include=['object']).columns
-for col in categorical_cols:
-    df[col] = df[col].fillna(df[col].mode()[0])
-
-# Feature Engineering
-def age_group(age):
-    if pd.isna(age):
-        return 'Unknown'
-    elif age < 20:
-        return '<20 Tahun'
-    elif age < 30:
-        return '20-29 Tahun'
-    elif age < 45:
-        return '30-44 Tahun'
-    elif age < 60:
-        return '45-59 Tahun'
-    else:
-        return '60+ Tahun'
-
-df['Age_Group'] = df['Age'].apply(age_group)
-
-df['Fast_Food_Group'] = 'Normal'
-df.loc[df['Fast_Food_Meals_Per_Week'] > 5, 'Fast_Food_Group'] = 'Tinggi (>5x)'
-df.loc[df['Fast_Food_Meals_Per_Week'] < 2, 'Fast_Food_Group'] = 'Rendah (<2x)'
-
-df['High_Cal_Low_Energy'] = (df['Average_Daily_Calories'] > 2500) & (df['Energy_Level_Score'] < 5)
-df['Digestive_Numeric'] = df['Digestive_Issues'].map({'Yes': 1, 'No': 0})
-
 # ==================== HEADER ====================
 st.markdown(f"""
 <div class="main-header">
-    <h1>NutriVision Dashboard</h1>
+    <h1> NutriVision Dashboard</h1>
     <p>Fast-food Detection & Nutrition Intelligence System | Business Intelligence Dashboard</p>
 </div>
 """, unsafe_allow_html=True)
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
-    st.markdown("## Filter Data")
+    st.markdown("##  Filter Data")
     st.markdown("---")
     
     gender_options = ['All'] + sorted(df['Gender'].dropna().unique().tolist())
@@ -186,8 +177,8 @@ with st.sidebar:
     )
     
     st.markdown("---")
-    st.caption(f"Total Data: {len(df)} responden")
-    st.caption("Dashboard by CC26-PSU071")
+    st.caption(f" Total Data: {len(df)} responden")
+    st.caption(" Dashboard by CC26-PSU071")
 
 # ==================== FILTER DATA ====================
 df_filtered = df.copy()
@@ -202,7 +193,7 @@ df_filtered = df_filtered[
 ]
 
 # ==================== KPI CARDS ====================
-st.markdown('<div class="section-header">Key Performance Indicators</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header"> Key Performance Indicators</div>', unsafe_allow_html=True)
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -219,7 +210,7 @@ with col2:
     avg_meals = df_filtered['Fast_Food_Meals_Per_Week'].mean()
     st.markdown(f"""
     <div class="metric-card">
-        <h4>Fast Food per Minggu</h4>
+        <h4> Fast Food per Minggu</h4>
         <div class="value">{avg_meals:.1f} kali</div>
     </div>
     """, unsafe_allow_html=True)
@@ -237,7 +228,7 @@ with col4:
     avg_health = df_filtered['Overall_Health_Score'].mean()
     st.markdown(f"""
     <div class="metric-card">
-        <h4>Skor Kesehatan</h4>
+        <h4> Skor Kesehatan</h4>
         <div class="value">{avg_health:.1f} / 10</div>
     </div>
     """, unsafe_allow_html=True)
@@ -245,7 +236,7 @@ with col4:
 st.markdown("---")
 
 # ==================== Q1 ====================
-st.markdown('<div class="section-header">Q1: Dampak Konsumsi Fast Food terhadap Kesehatan</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header"> Q1: Dampak Konsumsi Fast Food terhadap Kesehatan</div>', unsafe_allow_html=True)
 st.markdown("*Berapakah rata-rata penurunan skor kesehatan dan persentase peningkatan risiko gangguan pencernaan pada kelompok fast food tinggi (>5x/minggu) dibandingkan rendah (<2x/minggu)?*")
 
 q1_data = df_filtered.groupby('Fast_Food_Group').agg(
@@ -253,14 +244,11 @@ q1_data = df_filtered.groupby('Fast_Food_Group').agg(
     Persen_Gangguan_Pencernaan=('Digestive_Numeric', lambda x: x.mean() * 100)
 ).loc[['Rendah (<2x)', 'Tinggi (>5x)']]
 
-# Warna: ORANGE untuk tinggi, DARK_ORANGE untuk rendah
-warna_bars = [DARK_ORANGE, ORANGE]
-
 col1, col2 = st.columns(2)
 
 with col1:
     fig1, ax1 = plt.subplots(figsize=(7, 5))
-    bars1 = ax1.bar(q1_data.index, q1_data['Rata_Skor_Kesehatan'], color=warna_bars, edgecolor=WHITE)
+    bars1 = ax1.bar(q1_data.index, q1_data['Rata_Skor_Kesehatan'], color=[DARK_ORANGE, ORANGE], edgecolor=WHITE)
     ax1.set_title('Perbandingan Rata-rata Skor Kesehatan', color=WHITE, fontsize=14)
     ax1.set_xlabel('Kelompok Konsumsi Fast Food', color=LIGHT_GREY)
     ax1.set_ylabel('Skor Kesehatan (0-10)', color=LIGHT_GREY)
@@ -275,7 +263,7 @@ with col1:
 
 with col2:
     fig2, ax2 = plt.subplots(figsize=(7, 5))
-    bars2 = ax2.bar(q1_data.index, q1_data['Persen_Gangguan_Pencernaan'], color=warna_bars, edgecolor=WHITE)
+    bars2 = ax2.bar(q1_data.index, q1_data['Persen_Gangguan_Pencernaan'], color=[DARK_ORANGE, ORANGE], edgecolor=WHITE)
     ax2.set_title('Persentase Risiko Gangguan Pencernaan', color=WHITE, fontsize=14)
     ax2.set_xlabel('Kelompok Konsumsi Fast Food', color=LIGHT_GREY)
     ax2.set_ylabel('Persentase Responden (%)', color=LIGHT_GREY)
@@ -288,42 +276,53 @@ with col2:
                 f'{val:.2f}%', ha='center', color=WHITE, fontweight='bold', fontsize=12)
     st.pyplot(fig2)
 
+# Insight & Kesimpulan Q1
+st.markdown(f"""
+<div class="insight-box">
+    <div class="insight-title"> Insight Q1:</div>
+    <div class="insight-text">
+        • Skor kesehatan kelompok fast food tinggi ({q1_data.loc['Tinggi (>5x)', 'Rata_Skor_Kesehatan']:.2f}) lebih rendah dari kelompok rendah ({q1_data.loc['Rendah (<2x)', 'Rata_Skor_Kesehatan']:.2f})<br>
+        • Gangguan pencernaan kelompok fast food tinggi ({q1_data.loc['Tinggi (>5x)', 'Persen_Gangguan_Pencernaan']:.2f}%) justru lebih rendah dari kelompok rendah ({q1_data.loc['Rendah (<2x)', 'Persen_Gangguan_Pencernaan']:.2f}%)<br>
+        • Perbedaan skor kesehatan hanya 0.05 poin, sangat kecil
+    </div>
+    <div class="conclusion-text"> Kesimpulan: Frekuensi konsumsi fast food dalam dataset ini tidak langsung mempengaruhi gangguan pencernaan maupun penurunan skor kesehatan harian. Ada faktor gaya hidup lain yang lebih berpengaruh.</div>
+</div>
+""", unsafe_allow_html=True)
+
 st.markdown("---")
 
 # ==================== Q2 ====================
 st.markdown('<div class="section-header"> Q2: Kalori Tinggi vs Energi Rendah</div>', unsafe_allow_html=True)
 st.markdown("*Berapa proporsi responden dengan asupan kalori >2500 namun energi <5, dan bagaimana hubungannya dengan frekuensi fast food?*")
 
-total_responden = len(df_filtered)
-jumlah_berisiko = len(df_filtered[df_filtered['High_Cal_Low_Energy'] == True])
-persentase_berisiko = (jumlah_berisiko / total_responden) * 100
+total_responden_q2 = len(df_filtered)
+jumlah_berisiko_q2 = len(df_filtered[df_filtered['High_Cal_Low_Energy'] == 'Ya'])
+persentase_berisiko_q2 = (jumlah_berisiko_q2 / total_responden_q2) * 100
 
 col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown(f"""
     <div class="metric-card">
-        <h4>Total Responden</h4>
-        <div class="value">{total_responden}</div>
+        <h4> Total Responden</h4>
+        <div class="value">{total_responden_q2}</div>
     </div>
     """, unsafe_allow_html=True)
 with col2:
     st.markdown(f"""
     <div class="metric-card">
-        <h4> Berisiko</h4>
-        <div class="value">{jumlah_berisiko}</div>
+        <h4> Kalori >2500 & Energi <5</h4>
+        <div class="value">{jumlah_berisiko_q2}</div>
     </div>
     """, unsafe_allow_html=True)
 with col3:
     st.markdown(f"""
     <div class="metric-card">
-        <h4> Persentase</h4>
-        <div class="value">{persentase_berisiko:.1f}%</div>
+        <h4> Proporsi Berisiko</h4>
+        <div class="value">{persentase_berisiko_q2:.1f}%</div>
     </div>
     """, unsafe_allow_html=True)
 
 fig3, ax3 = plt.subplots(figsize=(10, 6))
-# Warna berdasarkan Fast_Food_Group
-colors_map = {'Rendah (<2x)': DARK_ORANGE, 'Tinggi (>5x)': ORANGE, 'Normal': LIGHT_ORANGE}
 scatter = ax3.scatter(df_filtered['Average_Daily_Calories'], df_filtered['Energy_Level_Score'],
                       c=df_filtered['Fast_Food_Meals_Per_Week'], cmap='Oranges', alpha=0.7, s=60)
 ax3.axvline(x=2500, color='red', linestyle='--', linewidth=2, label='Batas Kalori Tinggi (>2500)')
@@ -339,6 +338,18 @@ cbar.set_label('Frekuensi Fast Food per Minggu', color=LIGHT_GREY)
 cbar.ax.yaxis.set_tick_params(color=LIGHT_GREY)
 plt.setp(plt.getp(cbar.ax.axes, 'yticklabels'), color=LIGHT_GREY)
 st.pyplot(fig3)
+
+# Insight & Kesimpulan Q2
+st.markdown(f"""
+<div class="insight-box">
+    <div class="insight-title"> Insight Q2:</div>
+    <div class="insight-text">
+        • Sebesar <b>{persentase_berisiko_q2:.1f}%</b> dari total responden ({jumlah_berisiko_q2} dari {total_responden_q2} responden) memiliki konsumsi kalori harian tinggi (>2500) namun skor energi rendah (<5)<br>
+        • Scatter plot mengidentifikasi bahwa sebagian besar kalori berasal dari empty calories (kalori kosong tinggi lemak dan gula)
+    </div>
+    <div class="conclusion-text"> Kesimpulan: Kalori tinggi dari fast food tidak dapat diubah tubuh menjadi energi jangka panjang, hanya memberi lonjakan energi sesaat lalu tubuh menjadi cepat lemas (sugar crash/energy crash).</div>
+</div>
+""", unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -378,6 +389,22 @@ for bar, val in zip(bars2, q3_data['Rata_Kunjungan_Dokter']):
 
 st.pyplot(fig4)
 
+# Insight & Kesimpulan Q3
+fast_food_tertinggi = q3_data['Rata_Fast_Food'].idxmax()
+kunjungan_tertinggi = q3_data['Rata_Kunjungan_Dokter'].idxmax()
+
+st.markdown(f"""
+<div class="insight-box">
+    <div class="insight-title"> Insight Q3:</div>
+    <div class="insight-text">
+        • Kelompok <b>&lt;20 Tahun</b> memiliki rata-rata fast food tertinggi ({q3_data.loc['<20 Tahun', 'Rata_Fast_Food']:.1f}x/minggu) tapi kunjungan dokter terendah ({q3_data.loc['<20 Tahun', 'Rata_Kunjungan_Dokter']:.2f}x/tahun)<br>
+        • Kelompok <b>60+ Tahun</b> memiliki rata-rata fast food terendah ({q3_data.loc['60+ Tahun', 'Rata_Fast_Food']:.1f}x/minggu) tapi kunjungan dokter tertinggi ({q3_data.loc['60+ Tahun', 'Rata_Kunjungan_Dokter']:.2f}x/tahun)<br>
+        • Konsumsi fast food cenderung menurun seiring bertambahnya usia, sementara kunjungan dokter cenderung meningkat
+    </div>
+    <div class="conclusion-text"> Kesimpulan: Tingkat konsumsi fast food mingguan tidak mempengaruhi rata-rata kunjungan dokter per tahun. Faktor usia lebih berpengaruh terhadap kunjungan dokter daripada kebiasaan fast food.</div>
+</div>
+""", unsafe_allow_html=True)
+
 st.markdown("---")
 
 # ==================== Q4 ====================
@@ -398,15 +425,60 @@ ax5.set_facecolor(BLACK)
 fig5.patch.set_facecolor(BLACK)
 st.pyplot(fig5)
 
+# Insight & Kesimpulan Q4
+korelasi_ff_bmi = korelasi_matrix.loc['Fast_Food_Meals_Per_Week', 'BMI']
+korelasi_olahraga_bmi = korelasi_matrix.loc['Physical_Activity_Hours_Per_Week', 'BMI']
+
+st.markdown(f"""
+<div class="insight-box">
+    <div class="insight-title"> Insight Q4:</div>
+    <div class="insight-text">
+        • Korelasi Fast Food vs BMI: <b>{korelasi_ff_bmi:.2f}</b> ({"positif" if korelasi_ff_bmi > 0 else "negatif"})<br>
+        • Korelasi Olahraga vs BMI: <b>{korelasi_olahraga_bmi:.2f}</b> ({"positif" if korelasi_olahraga_bmi > 0 else "negatif"})<br>
+        • Nilai koefisien mendekati nol (0) menunjukkan hubungan yang sangat lemah
+    </div>
+    <div class="conclusion-text"> Kesimpulan: Tidak terdapat korelasi linier atau signifikan secara langsung antara ketiga variabel dalam dataset ini. Tingkat BMI seseorang tidak serta merta dipengaruhi oleh konsumsi fast food yang tinggi maupun tingkat olahraga yang rendah saja, melainkan ada faktor lain yang juga mempengaruhi skor BMI seseorang.</div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ==================== KESIMPULAN AKHIR ====================
+st.markdown('<div class="section-header"> Kesimpulan Akhir & Rekomendasi NutriVision</div>', unsafe_allow_html=True)
+
+st.markdown(f"""
+<div style='background: linear-gradient(135deg, {DARK_ORANGE}, {ORANGE}); padding: 1.5rem; border-radius: 15px; margin-top: 1rem;'>
+    <h3 style='color: {WHITE};'> Ringkasan 4 Pertanyaan Bisnis:</h3>
+    <ul style='color: {WHITE};'>
+        <li><b>Q1:</b> Fast food tinggi vs rendah: perbedaan skor kesehatan hanya 0.05 poin. Gangguan pencernaan malah lebih rendah di kelompok fast food tinggi. <b>Ada faktor lain yang lebih berpengaruh.</b></li>
+        <li><b>Q2:</b> 23.7% responden memiliki kalori tinggi tapi energi rendah → kemungkinan dari empty calories (fast food).</li>
+        <li><b>Q3:</b> Usia &lt;20 tahun: fast food tertinggi (7x/minggu), kunjungan dokter terendah. Usia 60+: fast food terendah (1x/minggu), kunjungan dokter tertinggi. <b>Usia lebih berpengaruh ke kunjungan dokter daripada fast food.</b></li>
+        <li><b>Q4:</b> Korelasi fast food vs BMI: -0.05, olahraga vs BMI: -0.04 → <b>tidak ada korelasi signifikan.</b></li>
+    </ul>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div style='background-color: {DARK_GREY}; padding: 1.5rem; border-radius: 15px; margin-top: 1rem;'>
+    <h3 style='color: {ORANGE};'> Rekomendasi untuk NutriVision:</h3>
+    <ul style='color: {LIGHT_GREY};'>
+        <li><b>1. Edukasi Empty Calories:</b> Berikan edukasi bahwa kalori dari fast food tidak memberi energi tahan lama (sugar crash)</li>
+        <li><b>2. Fokus ke Faktor Lain:</b> Karena fast food tidak berkorelasi langsung dengan BMI, NutriVision perlu mempertimbangkan faktor lain seperti genetika, metabolisme, dan pola tidur</li>
+        <li><b>3. Target Usia Muda:</b> Kelompok &lt;20 tahun punya konsumsi fast food tertinggi, perlu jadi target edukasi utama</li>
+        <li><b>4. Personalisasi:</b> Setiap individu punya faktor risiko berbeda, perlu pendekatan personal</li>
+    </ul>
+</div>
+""", unsafe_allow_html=True)
+
 st.markdown("---")
 
 # ==================== DATA PREVIEW ====================
-st.markdown('<div class="section-header"> Data Preview</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">📋 Data Preview</div>', unsafe_allow_html=True)
 st.dataframe(df_filtered.head(20), use_container_width=True)
 
 # ==================== FOOTER ====================
 st.markdown(f"""
 <div style='background-color: {DARK_GREY}; padding: 1rem; border-radius: 10px; margin-top: 1rem; text-align: center;'>
-    <p style='color: {LIGHT_GREY}; margin: 0;'>Dashboard dibuat untuk proyek capstone CC26-PSU071 | Data: dataset_inject_noise.csv</p>
+    <p style='color: {LIGHT_GREY}; margin: 0;'>Dashboard dibuat untuk proyek capstone CC26-PSU071 | Data: dataset_final.csv (768 responden)</p>
 </div>
 """, unsafe_allow_html=True)
