@@ -92,7 +92,7 @@ st.markdown(f"""
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
-    st.markdown("## 🔧 Filter Data")
+    st.markdown("##  Filter Data")
     st.markdown("---")
     
     gender_options = ['All'] + sorted(df['Gender'].dropna().unique().tolist())
